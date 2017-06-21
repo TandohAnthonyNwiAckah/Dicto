@@ -1,10 +1,11 @@
 # Dicto v.1.0.0
 
-## A must have app for all android Developers.
+A must have app for all android Developers.
 
-## Dicto is an offline dictinary for developers interested in learning both kotlin and Java.It's very easy to use.
+Dicto is an offline dictinary for developers interested in learning both kotlin and Java.It's very easy to use.
 No internet connection needed.
 
+![Main Page](pics/a.png)
 
 
 
@@ -18,7 +19,7 @@ No internet connection needed.
 * ankoVersion  - 0.9.1a
 * supportLibraryVersion -26.0.0-alpha1
 
-#Help
+# Help
 For help,email tanamoinc@gmail.com.
 
 # License
