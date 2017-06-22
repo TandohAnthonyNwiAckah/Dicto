@@ -5,7 +5,7 @@ A must have app for all android Developers.
 Dicto is an offline dictinary for developers interested in learning both kotlin and Java.It's very easy to use.
 No internet connection needed.
 
-![Main Page](pics/a.png)
+![Main Page](pics/aa.png)
 
 
 
