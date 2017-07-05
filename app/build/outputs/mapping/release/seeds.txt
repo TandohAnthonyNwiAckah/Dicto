@@ -6,6 +6,7 @@ android.support.constraint.ConstraintLayout: ConstraintLayout(android.content.Co
 android.support.constraint.ConstraintLayout: ConstraintLayout(android.content.Context,android.util.AttributeSet)
 android.support.constraint.ConstraintLayout: ConstraintLayout(android.content.Context,android.util.AttributeSet,int)
 android.support.constraint.ConstraintLayout: void setId(int)
+android.support.constraint.ConstraintLayout: void init(android.util.AttributeSet)
 android.support.constraint.ConstraintLayout: void setMinWidth(int)
 android.support.constraint.ConstraintLayout: void setMinHeight(int)
 android.support.constraint.ConstraintLayout: int getMinWidth()
@@ -2375,6 +2376,7 @@ android.support.v4.media.session.PlaybackStateCompat: android.os.Parcelable$Crea
 android.support.v4.media.session.PlaybackStateCompat$CustomAction: android.os.Parcelable$Creator CREATOR
 android.support.v4.os.ResultReceiver: android.os.Parcelable$Creator CREATOR
 android.support.v4.view.AbsSavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.view.GestureDetectorCompat$GestureDetectorCompatImplBase: void init(android.content.Context)
 android.support.v4.view.PagerTabStrip: void setTabIndicatorColor(int)
 android.support.v4.view.PagerTabStrip: void setTabIndicatorColorResource(int)
 android.support.v4.view.PagerTabStrip: int getTabIndicatorColor()
@@ -2407,6 +2409,8 @@ android.support.v4.view.ViewPager: void setPageMarginDrawable(android.graphics.d
 android.support.v4.view.ViewPager: void setPageMarginDrawable(int)
 android.support.v4.view.ViewPager: void setScrollingCacheEnabled(boolean)
 android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.widget.CursorAdapter: void init(android.content.Context,android.database.Cursor,boolean)
+android.support.v4.widget.CursorAdapter: void init(android.content.Context,android.database.Cursor,int)
 android.support.v4.widget.DrawerLayout
 android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context)
 android.support.v4.widget.DrawerLayout: DrawerLayout(android.content.Context,android.util.AttributeSet)
@@ -2480,6 +2484,7 @@ android.support.v7.app.AlertController$RecycleListView: AlertController$RecycleL
 android.support.v7.app.AppCompatActivity: AppCompatActivity()
 android.support.v7.app.AppCompatActivity: void setContentView(android.view.View)
 android.support.v7.app.AppCompatDelegateImplV9$PanelFeatureState$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v7.app.WindowDecorActionBar: void init(android.view.View)
 android.support.v7.appcompat.R$anim: int abc_fade_in
 android.support.v7.appcompat.R$anim: int abc_fade_out
 android.support.v7.appcompat.R$anim: int abc_grow_fade_in_from_bottom
@@ -4033,6 +4038,7 @@ android.support.v7.widget.ActionBarContextView: int getContentHeight()
 android.support.v7.widget.ActionBarOverlayLayout
 android.support.v7.widget.ActionBarOverlayLayout: ActionBarOverlayLayout(android.content.Context)
 android.support.v7.widget.ActionBarOverlayLayout: ActionBarOverlayLayout(android.content.Context,android.util.AttributeSet)
+android.support.v7.widget.ActionBarOverlayLayout: void init(android.content.Context)
 android.support.v7.widget.ActionBarOverlayLayout: void setActionBarVisibilityCallback(android.support.v7.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback)
 android.support.v7.widget.ActionBarOverlayLayout: void setOverlayMode(boolean)
 android.support.v7.widget.ActionBarOverlayLayout: void setHasNonEmbeddedTabs(boolean)
@@ -4131,6 +4137,7 @@ android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setSupportBac
 android.support.v7.widget.AppCompatMultiAutoCompleteTextView: android.content.res.ColorStateList getSupportBackgroundTintList()
 android.support.v7.widget.AppCompatMultiAutoCompleteTextView: void setSupportBackgroundTintMode(android.graphics.PorterDuff$Mode)
 android.support.v7.widget.AppCompatMultiAutoCompleteTextView: android.graphics.PorterDuff$Mode getSupportBackgroundTintMode()
+android.support.v7.widget.AppCompatPopupWindow: void init(android.content.Context,android.util.AttributeSet,int,int)
 android.support.v7.widget.AppCompatRadioButton: void setButtonDrawable(android.graphics.drawable.Drawable)
 android.support.v7.widget.AppCompatRadioButton: void setButtonDrawable(int)
 android.support.v7.widget.AppCompatRadioButton: int getCompoundPaddingLeft()
@@ -4912,9 +4919,11 @@ com.google.android.gms.internal.zzbia: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.internal.zzbib: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.internal.zzbic: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.internal.zzbif: android.os.Parcelable$Creator CREATOR
+com.google.android.gms.internal.zzcbo: void init(com.google.android.gms.dynamic.IObjectWrapper)
 com.google.android.gms.internal.zzcbp: zzcbp()
 com.google.android.gms.internal.zzcbp: com.google.android.gms.internal.zzcbo asInterface(android.os.IBinder)
 com.google.android.gms.internal.zzcbp: boolean onTransact(int,android.os.Parcel,android.os.Parcel,int)
+com.google.android.gms.internal.zzcbq: void init(com.google.android.gms.dynamic.IObjectWrapper)
 com.google.android.gms.internal.zzccf: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.internal.zzcch: android.os.Parcelable$Creator CREATOR
 com.google.android.gms.internal.zzcrz: android.os.Parcelable$Creator CREATOR
@@ -5473,6 +5482,7 @@ com.tanamo.dicto.R$color: int switch_thumb_material_light
 com.tanamo.dicto.R$color: int switch_thumb_normal_material_dark
 com.tanamo.dicto.R$color: int switch_thumb_normal_material_light
 com.tanamo.dicto.R$color: int white
+com.tanamo.dicto.R$color: int whiten
 com.tanamo.dicto.R$dimen: int abc_action_bar_content_inset_material
 com.tanamo.dicto.R$dimen: int abc_action_bar_content_inset_with_nav
 com.tanamo.dicto.R$dimen: int abc_action_bar_default_height_material
@@ -5547,6 +5557,9 @@ com.tanamo.dicto.R$dimen: int abc_text_size_subhead_material
 com.tanamo.dicto.R$dimen: int abc_text_size_subtitle_material_toolbar
 com.tanamo.dicto.R$dimen: int abc_text_size_title_material
 com.tanamo.dicto.R$dimen: int abc_text_size_title_material_toolbar
+com.tanamo.dicto.R$dimen: int activity_horizontal_margin
+com.tanamo.dicto.R$dimen: int activity_vertical_margin
+com.tanamo.dicto.R$dimen: int btn_height
 com.tanamo.dicto.R$dimen: int cardview_compat_inset_shadow
 com.tanamo.dicto.R$dimen: int cardview_default_elevation
 com.tanamo.dicto.R$dimen: int cardview_default_radius
@@ -5590,6 +5603,7 @@ com.tanamo.dicto.R$dimen: int design_tab_text_size
 com.tanamo.dicto.R$dimen: int design_tab_text_size_2line
 com.tanamo.dicto.R$dimen: int disabled_alpha_material_dark
 com.tanamo.dicto.R$dimen: int disabled_alpha_material_light
+com.tanamo.dicto.R$dimen: int edit_text_width
 com.tanamo.dicto.R$dimen: int fastscroll_default_thickness
 com.tanamo.dicto.R$dimen: int fastscroll_margin
 com.tanamo.dicto.R$dimen: int fastscroll_minimum_range
@@ -5619,6 +5633,7 @@ com.tanamo.dicto.R$dimen: int notification_subtext_size
 com.tanamo.dicto.R$dimen: int notification_top_pad
 com.tanamo.dicto.R$dimen: int notification_top_pad_large_text
 com.tanamo.dicto.R$dimen: int spacing_large
+com.tanamo.dicto.R$dimen: int subtitle_size
 com.tanamo.dicto.R$drawable: int abc_ab_share_pack_mtrl_alpha
 com.tanamo.dicto.R$drawable: int abc_action_bar_item_background_material
 com.tanamo.dicto.R$drawable: int abc_btn_borderless_material
@@ -5743,7 +5758,9 @@ com.tanamo.dicto.R$drawable: int ic_more_horiz_black_24dp
 com.tanamo.dicto.R$drawable: int ic_na
 com.tanamo.dicto.R$drawable: int ic_save_black_24dp
 com.tanamo.dicto.R$drawable: int ic_send_black_24dp
+com.tanamo.dicto.R$drawable: int ic_share_black_24dp
 com.tanamo.dicto.R$drawable: int ic_star_half_black_24dp
+com.tanamo.dicto.R$drawable: int ic_sub
 com.tanamo.dicto.R$drawable: int ima
 com.tanamo.dicto.R$drawable: int navigation_empty_icon
 com.tanamo.dicto.R$drawable: int notification_action_background
@@ -5821,6 +5838,7 @@ com.tanamo.dicto.R$id: int design_navigation_view
 com.tanamo.dicto.R$id: int dialogTitle
 com.tanamo.dicto.R$id: int disableHome
 com.tanamo.dicto.R$id: int drawer_layout
+com.tanamo.dicto.R$id: int e1
 com.tanamo.dicto.R$id: int edit_query
 com.tanamo.dicto.R$id: int end
 com.tanamo.dicto.R$id: int end_padder
@@ -5869,6 +5887,7 @@ com.tanamo.dicto.R$id: int normal
 com.tanamo.dicto.R$id: int notification_background
 com.tanamo.dicto.R$id: int notification_main_column
 com.tanamo.dicto.R$id: int notification_main_column_container
+com.tanamo.dicto.R$id: int nxt
 com.tanamo.dicto.R$id: int packed
 com.tanamo.dicto.R$id: int parallax
 com.tanamo.dicto.R$id: int parent
@@ -5876,9 +5895,21 @@ com.tanamo.dicto.R$id: int parentPanel
 com.tanamo.dicto.R$id: int pin
 com.tanamo.dicto.R$id: int progress_circular
 com.tanamo.dicto.R$id: int progress_horizontal
+com.tanamo.dicto.R$id: int q1
+com.tanamo.dicto.R$id: int q2
+com.tanamo.dicto.R$id: int q3
+com.tanamo.dicto.R$id: int q4
+com.tanamo.dicto.R$id: int q5
+com.tanamo.dicto.R$id: int q6
 com.tanamo.dicto.R$id: int quit
+com.tanamo.dicto.R$id: int r13
+com.tanamo.dicto.R$id: int r2
+com.tanamo.dicto.R$id: int r4
+com.tanamo.dicto.R$id: int r6
+com.tanamo.dicto.R$id: int r9
 com.tanamo.dicto.R$id: int radio
 com.tanamo.dicto.R$id: int rat
+com.tanamo.dicto.R$id: int replay
 com.tanamo.dicto.R$id: int right
 com.tanamo.dicto.R$id: int right_icon
 com.tanamo.dicto.R$id: int right_side
@@ -5923,6 +5954,7 @@ com.tanamo.dicto.R$id: int status_bar_latest_event_content
 com.tanamo.dicto.R$id: int submenuarrow
 com.tanamo.dicto.R$id: int submit_area
 com.tanamo.dicto.R$id: int tabMode
+com.tanamo.dicto.R$id: int tell
 com.tanamo.dicto.R$id: int text
 com.tanamo.dicto.R$id: int text2
 com.tanamo.dicto.R$id: int textSpacerNoButtons
@@ -5931,6 +5963,7 @@ com.tanamo.dicto.R$id: int text_input_password_toggle
 com.tanamo.dicto.R$id: int textinput_counter
 com.tanamo.dicto.R$id: int textinput_error
 com.tanamo.dicto.R$id: int time
+com.tanamo.dicto.R$id: int timmer
 com.tanamo.dicto.R$id: int tio
 com.tanamo.dicto.R$id: int title
 com.tanamo.dicto.R$id: int titleDividerNoCustom
@@ -5993,6 +6026,7 @@ com.tanamo.dicto.R$layout: int abc_search_view
 com.tanamo.dicto.R$layout: int abc_select_dialog_material
 com.tanamo.dicto.R$layout: int about
 com.tanamo.dicto.R$layout: int activity_main
+com.tanamo.dicto.R$layout: int ap
 com.tanamo.dicto.R$layout: int cedis
 com.tanamo.dicto.R$layout: int design_bottom_navigation_item
 com.tanamo.dicto.R$layout: int design_bottom_sheet_dialog
@@ -6026,6 +6060,8 @@ com.tanamo.dicto.R$layout: int notification_template_media
 com.tanamo.dicto.R$layout: int notification_template_media_custom
 com.tanamo.dicto.R$layout: int notification_template_part_chronometer
 com.tanamo.dicto.R$layout: int notification_template_part_time
+com.tanamo.dicto.R$layout: int ques
+com.tanamo.dicto.R$layout: int ques2
 com.tanamo.dicto.R$layout: int select_dialog_item_material
 com.tanamo.dicto.R$layout: int select_dialog_multichoice_material
 com.tanamo.dicto.R$layout: int select_dialog_singlechoice_material
@@ -6034,8 +6070,7 @@ com.tanamo.dicto.R$layout: int support_simple_spinner_dropdown_item
 com.tanamo.dicto.R$menu: int drawer
 com.tanamo.dicto.R$menu: int menu
 com.tanamo.dicto.R$mipmap: int ic_launcher
-com.tanamo.dicto.R$mipmap: int ic_launcher_background
-com.tanamo.dicto.R$mipmap: int ic_launcher_foreground
+com.tanamo.dicto.R$raw: int trv
 com.tanamo.dicto.R$string: int abc_action_bar_home_description
 com.tanamo.dicto.R$string: int abc_action_bar_home_description_format
 com.tanamo.dicto.R$string: int abc_action_bar_home_subtitle_description_format
@@ -6113,6 +6148,46 @@ com.tanamo.dicto.R$string: int path_password_eye_mask_strike_through
 com.tanamo.dicto.R$string: int path_password_eye_mask_visible
 com.tanamo.dicto.R$string: int path_password_strike_through
 com.tanamo.dicto.R$string: int playstore_link
+com.tanamo.dicto.R$string: int ques_1
+com.tanamo.dicto.R$string: int ques_1_1
+com.tanamo.dicto.R$string: int ques_1_2
+com.tanamo.dicto.R$string: int ques_1_3
+com.tanamo.dicto.R$string: int ques_2
+com.tanamo.dicto.R$string: int ques_2_1
+com.tanamo.dicto.R$string: int ques_2_2
+com.tanamo.dicto.R$string: int ques_3
+com.tanamo.dicto.R$string: int ques_3_1
+com.tanamo.dicto.R$string: int ques_4
+com.tanamo.dicto.R$string: int ques_4_1
+com.tanamo.dicto.R$string: int ques_4_2
+com.tanamo.dicto.R$string: int ques_5
+com.tanamo.dicto.R$string: int ques_5_1
+com.tanamo.dicto.R$string: int ques_5_2
+com.tanamo.dicto.R$string: int ques_5_3
+com.tanamo.dicto.R$string: int ques_5_4
+com.tanamo.dicto.R$string: int ques_6
+com.tanamo.dicto.R$string: int ques_6_1
+com.tanamo.dicto.R$string: int ques_6_2
+com.tanamo.dicto.R$string: int queso_1
+com.tanamo.dicto.R$string: int queso_1_1
+com.tanamo.dicto.R$string: int queso_1_2
+com.tanamo.dicto.R$string: int queso_1_3
+com.tanamo.dicto.R$string: int queso_2
+com.tanamo.dicto.R$string: int queso_2_1
+com.tanamo.dicto.R$string: int queso_2_2
+com.tanamo.dicto.R$string: int queso_3
+com.tanamo.dicto.R$string: int queso_3_1
+com.tanamo.dicto.R$string: int queso_4
+com.tanamo.dicto.R$string: int queso_4_1
+com.tanamo.dicto.R$string: int queso_4_2
+com.tanamo.dicto.R$string: int queso_5
+com.tanamo.dicto.R$string: int queso_5_1
+com.tanamo.dicto.R$string: int queso_5_2
+com.tanamo.dicto.R$string: int queso_5_3
+com.tanamo.dicto.R$string: int queso_5_4
+com.tanamo.dicto.R$string: int queso_6
+com.tanamo.dicto.R$string: int queso_6_1
+com.tanamo.dicto.R$string: int queso_6_2
 com.tanamo.dicto.R$string: int ref
 com.tanamo.dicto.R$string: int s1
 com.tanamo.dicto.R$string: int s2
@@ -6121,6 +6196,8 @@ com.tanamo.dicto.R$string: int s4
 com.tanamo.dicto.R$string: int s5
 com.tanamo.dicto.R$string: int s6
 com.tanamo.dicto.R$string: int search_menu_title
+com.tanamo.dicto.R$string: int sha
+com.tanamo.dicto.R$string: int shavi
 com.tanamo.dicto.R$string: int status_bar_notification_info_overflow
 com.tanamo.dicto.R$string: int website
 com.tanamo.dicto.R$string: int website_url
@@ -6512,6 +6589,10 @@ com.tanamo.dicto.R$style: int Widget_Design_ScrimInsetsFrameLayout
 com.tanamo.dicto.R$style: int Widget_Design_Snackbar
 com.tanamo.dicto.R$style: int Widget_Design_TabLayout
 com.tanamo.dicto.R$style: int Widget_Design_TextInputLayout
+com.tanamo.dicto.R$style: int gr
+com.tanamo.dicto.R$style: int ls
+com.tanamo.dicto.R$style: int qs
+com.tanamo.dicto.R$style: int rs
 com.tanamo.dicto.R$styleable: int[] ActionBar
 com.tanamo.dicto.R$styleable: int ActionBar_background
 com.tanamo.dicto.R$styleable: int ActionBar_backgroundSplit
@@ -7162,16 +7243,25 @@ com.tanamo.dicto.R$styleable: int[] ViewStubCompat
 com.tanamo.dicto.R$styleable: int ViewStubCompat_android_id
 com.tanamo.dicto.R$styleable: int ViewStubCompat_android_layout
 com.tanamo.dicto.R$styleable: int ViewStubCompat_android_inflatedId
+com.tanamo.dicto.mod.Apc: Apc()
 com.tanamo.dicto.mod.Cedis
 com.tanamo.dicto.mod.Cedis: Cedis()
 com.tanamo.dicto.ui.Flash
 com.tanamo.dicto.ui.Flash: Flash()
 com.tanamo.dicto.ui.MainActivity
+com.tanamo.dicto.ui.MainActivity: void init()
 com.tanamo.dicto.ui.MainActivity: MainActivity()
+com.tanamo.dicto.ui.Ques
+com.tanamo.dicto.ui.Ques: void init(android.view.View)
+com.tanamo.dicto.ui.Ques: Ques()
+com.tanamo.dicto.ui.Ques2
+com.tanamo.dicto.ui.Ques2: void init(android.view.View)
+com.tanamo.dicto.ui.Ques2: Ques2()
 de.hdodenhof.circleimageview.CircleImageView
 de.hdodenhof.circleimageview.CircleImageView: CircleImageView(android.content.Context)
 de.hdodenhof.circleimageview.CircleImageView: CircleImageView(android.content.Context,android.util.AttributeSet)
 de.hdodenhof.circleimageview.CircleImageView: CircleImageView(android.content.Context,android.util.AttributeSet,int)
+de.hdodenhof.circleimageview.CircleImageView: void init()
 de.hdodenhof.circleimageview.CircleImageView: android.widget.ImageView$ScaleType getScaleType()
 de.hdodenhof.circleimageview.CircleImageView: void setScaleType(android.widget.ImageView$ScaleType)
 de.hdodenhof.circleimageview.CircleImageView: void setAdjustViewBounds(boolean)
@@ -7188,12 +7278,14 @@ de.hdodenhof.circleimageview.R$attr: int border_width
 de.hdodenhof.circleimageview.R$styleable: int[] CircleImageView
 de.hdodenhof.circleimageview.R$styleable: int CircleImageView_border_color
 de.hdodenhof.circleimageview.R$styleable: int CircleImageView_border_width
+io.fabric.sdk.android.Fabric: void init()
 io.fabric.sdk.android.services.common.CommonUtils$Architecture: io.fabric.sdk.android.services.common.CommonUtils$Architecture[] values()
 io.fabric.sdk.android.services.common.CommonUtils$Architecture: io.fabric.sdk.android.services.common.CommonUtils$Architecture valueOf(java.lang.String)
 io.fabric.sdk.android.services.common.DeliveryMechanism: io.fabric.sdk.android.services.common.DeliveryMechanism[] values()
 io.fabric.sdk.android.services.common.DeliveryMechanism: io.fabric.sdk.android.services.common.DeliveryMechanism valueOf(java.lang.String)
 io.fabric.sdk.android.services.common.IdManager$DeviceIdentifierType: io.fabric.sdk.android.services.common.IdManager$DeviceIdentifierType[] values()
 io.fabric.sdk.android.services.common.IdManager$DeviceIdentifierType: io.fabric.sdk.android.services.common.IdManager$DeviceIdentifierType valueOf(java.lang.String)
+io.fabric.sdk.android.services.concurrency.AsyncTask: void init()
 io.fabric.sdk.android.services.concurrency.AsyncTask$Status: io.fabric.sdk.android.services.concurrency.AsyncTask$Status[] values()
 io.fabric.sdk.android.services.concurrency.AsyncTask$Status: io.fabric.sdk.android.services.concurrency.AsyncTask$Status valueOf(java.lang.String)
 io.fabric.sdk.android.services.concurrency.Priority: io.fabric.sdk.android.services.concurrency.Priority[] values()

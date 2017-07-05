@@ -22,5 +22,6 @@ limitations under the License.
     <color name="accent">#cabe2a</color>
     <color name="accent_translucent">#cabe2a</color>
     <color name="white">#FFF7A7</color>
+    <color name="whiten">#FFF</color>
     <color name="black">#000</color>
 </resources>

@@ -14,7 +14,7 @@ android.support.constraint.ConstraintLayout -> android.support.constraint.Constr
     void <init>(android.content.Context,android.util.AttributeSet) -> <init>
     void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
     void setId(int) -> setId
-    void init(android.util.AttributeSet) -> b
+    void init(android.util.AttributeSet) -> init
     void addView(android.view.View,int,android.view.ViewGroup$LayoutParams) -> addView
     void removeView(android.view.View) -> removeView
     void onViewAdded(android.view.View) -> onViewAdded
@@ -7276,7 +7276,8 @@ android.support.v4.widget.CursorAdapter -> android.support.v4.widget.c:
     android.support.v4.widget.CursorFilter mCursorFilter -> h
     android.widget.FilterQueryProvider mFilterQueryProvider -> i
     void <init>(android.content.Context,android.database.Cursor,boolean) -> <init>
-    void init(android.content.Context,android.database.Cursor,int) -> a
+    void init(android.content.Context,android.database.Cursor,boolean) -> init
+    void init(android.content.Context,android.database.Cursor,int) -> init
     android.database.Cursor getCursor() -> a
     int getCount() -> getCount
     java.lang.Object getItem(int) -> getItem
@@ -8760,8 +8761,8 @@ android.support.v7.app.WindowDecorActionBar -> android.support.v7.app.t:
     boolean $assertionsDisabled -> s
     void <init>(android.app.Activity,boolean) -> <init>
     void <init>(android.app.Dialog) -> <init>
-    void init(android.view.View) -> a
-    android.support.v7.widget.DecorToolbar getDecorToolbar(android.view.View) -> b
+    void init(android.view.View) -> init
+    android.support.v7.widget.DecorToolbar getDecorToolbar(android.view.View) -> a
     void setElevation(float) -> a
     void onConfigurationChanged(android.content.res.Configuration) -> a
     void setHasEmbeddedTabs(boolean) -> k
@@ -11649,7 +11650,7 @@ android.support.v7.widget.ActionBarOverlayLayout -> android.support.v7.widget.Ac
     android.support.v4.view.NestedScrollingParentHelper mParentHelper -> B
     void <init>(android.content.Context) -> <init>
     void <init>(android.content.Context,android.util.AttributeSet) -> <init>
-    void init(android.content.Context) -> a
+    void init(android.content.Context) -> init
     void onDetachedFromWindow() -> onDetachedFromWindow
     void setActionBarVisibilityCallback(android.support.v7.widget.ActionBarOverlayLayout$ActionBarVisibilityCallback) -> setActionBarVisibilityCallback
     void setOverlayMode(boolean) -> setOverlayMode
@@ -12324,7 +12325,7 @@ android.support.v7.widget.AppCompatPopupWindow -> android.support.v7.widget.s:
     boolean mOverlapAnchor -> b
     void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
     void <init>(android.content.Context,android.util.AttributeSet,int,int) -> <init>
-    void init(android.content.Context,android.util.AttributeSet,int,int) -> a
+    void init(android.content.Context,android.util.AttributeSet,int,int) -> init
     void showAsDropDown(android.view.View,int,int) -> showAsDropDown
     void showAsDropDown(android.view.View,int,int,int) -> showAsDropDown
     void update(android.view.View,int,int,int,int) -> update
@@ -31070,6 +31071,7 @@ com.tanamo.dicto.R$id -> com.tanamo.dicto.a$a:
     int dialogTitle -> dialogTitle
     int disableHome -> disableHome
     int drawer_layout -> drawer_layout
+    int e1 -> e1
     int edit_query -> edit_query
     int end -> end
     int end_padder -> end_padder
@@ -31118,6 +31120,7 @@ com.tanamo.dicto.R$id -> com.tanamo.dicto.a$a:
     int notification_background -> notification_background
     int notification_main_column -> notification_main_column
     int notification_main_column_container -> notification_main_column_container
+    int nxt -> nxt
     int packed -> packed
     int parallax -> parallax
     int parent -> parent
@@ -31125,9 +31128,21 @@ com.tanamo.dicto.R$id -> com.tanamo.dicto.a$a:
     int pin -> pin
     int progress_circular -> progress_circular
     int progress_horizontal -> progress_horizontal
+    int q1 -> q1
+    int q2 -> q2
+    int q3 -> q3
+    int q4 -> q4
+    int q5 -> q5
+    int q6 -> q6
     int quit -> quit
+    int r13 -> r13
+    int r2 -> r2
+    int r4 -> r4
+    int r6 -> r6
+    int r9 -> r9
     int radio -> radio
     int rat -> rat
+    int replay -> replay
     int right -> right
     int right_icon -> right_icon
     int right_side -> right_side
@@ -31172,6 +31187,7 @@ com.tanamo.dicto.R$id -> com.tanamo.dicto.a$a:
     int submenuarrow -> submenuarrow
     int submit_area -> submit_area
     int tabMode -> tabMode
+    int tell -> tell
     int text -> text
     int text2 -> text2
     int textSpacerNoButtons -> textSpacerNoButtons
@@ -31180,6 +31196,7 @@ com.tanamo.dicto.R$id -> com.tanamo.dicto.a$a:
     int textinput_counter -> textinput_counter
     int textinput_error -> textinput_error
     int time -> time
+    int timmer -> timmer
     int tio -> tio
     int title -> title
     int titleDividerNoCustom -> titleDividerNoCustom
@@ -31218,6 +31235,31 @@ com.tanamo.dicto.mod.About -> com.tanamo.dicto.mod.a:
     void show() -> a
     void innerUpdate(android.view.View) -> a
     void <init>(android.content.Context) -> <init>
+com.tanamo.dicto.mod.Apc -> com.tanamo.dicto.mod.b:
+    android.app.Dialog dia -> l
+    android.content.Context ctx -> m
+    android.widget.ImageView imag -> n
+    android.widget.ImageView imag2 -> o
+    android.widget.ImageView imag3 -> p
+    android.widget.TextView title -> q
+    android.app.Dialog getDia() -> j
+    android.content.Context getCtx() -> k
+    android.widget.TextView getTitle() -> l
+    void onCreate(android.os.Bundle) -> onCreate
+    void shwDialog() -> m
+    void <init>() -> <init>
+com.tanamo.dicto.mod.Apc$shwDialog$1 -> com.tanamo.dicto.mod.b$a:
+    com.tanamo.dicto.mod.Apc this$0 -> a
+    void onClick(android.view.View) -> onClick
+    void <init>(com.tanamo.dicto.mod.Apc) -> <init>
+com.tanamo.dicto.mod.Apc$shwDialog$2 -> com.tanamo.dicto.mod.b$b:
+    com.tanamo.dicto.mod.Apc this$0 -> a
+    void onClick(android.view.View) -> onClick
+    void <init>(com.tanamo.dicto.mod.Apc) -> <init>
+com.tanamo.dicto.mod.Apc$shwDialog$3 -> com.tanamo.dicto.mod.b$c:
+    com.tanamo.dicto.mod.Apc this$0 -> a
+    void onClick(android.view.View) -> onClick
+    void <init>(com.tanamo.dicto.mod.Apc) -> <init>
 com.tanamo.dicto.mod.Cedis -> com.tanamo.dicto.mod.Cedis:
     android.view.View vie -> a
     com.google.android.gms.ads.AdRequest adr -> b
@@ -31228,7 +31270,7 @@ com.tanamo.dicto.mod.Cedis -> com.tanamo.dicto.mod.Cedis:
     android.view.View _$_findCachedViewById(int) -> c
     void _$_clearFindViewByIdCache() -> a
     void onDestroyView() -> e
-com.tanamo.dicto.mod.Kons -> com.tanamo.dicto.mod.b:
+com.tanamo.dicto.mod.Kons -> com.tanamo.dicto.mod.c:
     int COUNTS -> b
     int BISA -> c
     java.lang.String TAG -> d
@@ -31298,11 +31340,11 @@ com.tanamo.dicto.ui.MainActivity -> com.tanamo.dicto.ui.MainActivity:
     java.lang.String getMeaning() -> q
     void setMeaning(java.lang.String) -> b
     void onCreate(android.os.Bundle) -> onCreate
-    void init() -> r
+    void init() -> init
     boolean onCreateOptionsMenu(android.view.Menu) -> onCreateOptionsMenu
     boolean onOptionsItemSelected(android.view.MenuItem) -> onOptionsItemSelected
-    void shwDialog() -> s
-    void sbT() -> t
+    void shwDialog() -> r
+    void sbT() -> s
     void <init>() -> <init>
     android.view.View _$_findCachedViewById(int) -> b
 com.tanamo.dicto.ui.MainActivity$Proc -> com.tanamo.dicto.ui.MainActivity$a:
@@ -31344,6 +31386,96 @@ com.tanamo.dicto.ui.MainActivity$shwDialog$1 -> com.tanamo.dicto.ui.MainActivity
     com.tanamo.dicto.ui.MainActivity this$0 -> a
     void onClick(android.view.View) -> onClick
     void <init>(com.tanamo.dicto.ui.MainActivity) -> <init>
+com.tanamo.dicto.ui.Ques -> com.tanamo.dicto.ui.Ques:
+    android.media.MediaPlayer medi -> m
+    android.widget.RadioButton b -> n
+    android.widget.RadioButton b1 -> o
+    android.widget.RadioButton b2 -> p
+    android.widget.RadioButton b3 -> q
+    android.widget.RadioButton b4 -> r
+    android.widget.EditText e -> s
+    android.widget.TextView txt -> t
+    java.lang.String n1 -> u
+    java.lang.String n2 -> v
+    java.lang.String n3 -> w
+    java.lang.String n4 -> x
+    java.lang.String n5 -> y
+    java.lang.String n6 -> z
+    android.os.CountDownTimer sec -> A
+    java.lang.String tm -> B
+    com.tanamo.dicto.ui.Ques$Companion Companion -> l
+    android.media.MediaPlayer getMedi() -> n
+    android.widget.TextView getTxt() -> o
+    void onCreate(android.os.Bundle) -> onCreate
+    void init(android.view.View) -> init
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void Timer(int) -> b
+    void onBackPressed() -> onBackPressed
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+    android.os.CountDownTimer access$getSec$cp() -> p
+    void access$setSec$cp(android.os.CountDownTimer) -> a
+    java.lang.String access$getTm$cp() -> q
+    void access$setTm$cp(java.lang.String) -> a
+com.tanamo.dicto.ui.Ques$Companion -> com.tanamo.dicto.ui.Ques$a:
+    android.os.CountDownTimer getSec() -> a
+    void setSec(android.os.CountDownTimer) -> a
+    java.lang.String getTm() -> b
+    void setTm(java.lang.String) -> a
+    void <init>() -> <init>
+    void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+com.tanamo.dicto.ui.Ques$Timer$1 -> com.tanamo.dicto.ui.Ques$b:
+    com.tanamo.dicto.ui.Ques this$0 -> a
+    int $time -> b
+    void onTick(long) -> onTick
+    void onFinish() -> onFinish
+    void <init>(com.tanamo.dicto.ui.Ques,int,long,long) -> <init>
+com.tanamo.dicto.ui.Ques2 -> com.tanamo.dicto.ui.Ques2:
+    android.media.MediaPlayer medi -> m
+    android.widget.RadioButton b -> n
+    android.widget.RadioButton b1 -> o
+    android.widget.RadioButton b2 -> p
+    android.widget.RadioButton b3 -> q
+    android.widget.RadioButton b4 -> r
+    android.widget.EditText e -> s
+    android.widget.TextView txt -> t
+    java.lang.String n1 -> u
+    java.lang.String n2 -> v
+    java.lang.String n3 -> w
+    java.lang.String n4 -> x
+    java.lang.String n5 -> y
+    java.lang.String n6 -> z
+    android.os.CountDownTimer sec -> A
+    java.lang.String tm -> B
+    com.tanamo.dicto.ui.Ques2$Companion Companion -> l
+    android.media.MediaPlayer getMedi() -> n
+    android.widget.TextView getTxt() -> o
+    void onCreate(android.os.Bundle) -> onCreate
+    void init(android.view.View) -> init
+    void onResume() -> onResume
+    void onPause() -> onPause
+    void Timer(int) -> b
+    void onBackPressed() -> onBackPressed
+    void <init>() -> <init>
+    void <clinit>() -> <clinit>
+    android.os.CountDownTimer access$getSec$cp() -> p
+    void access$setSec$cp(android.os.CountDownTimer) -> a
+    java.lang.String access$getTm$cp() -> q
+    void access$setTm$cp(java.lang.String) -> a
+com.tanamo.dicto.ui.Ques2$Companion -> com.tanamo.dicto.ui.Ques2$a:
+    android.os.CountDownTimer getSec() -> a
+    void setSec(android.os.CountDownTimer) -> a
+    java.lang.String getTm() -> b
+    void setTm(java.lang.String) -> a
+    void <init>() -> <init>
+    void <init>(kotlin.jvm.internal.DefaultConstructorMarker) -> <init>
+com.tanamo.dicto.ui.Ques2$Timer$1 -> com.tanamo.dicto.ui.Ques2$b:
+    com.tanamo.dicto.ui.Ques2 this$0 -> a
+    int $time -> b
+    void onTick(long) -> onTick
+    void onFinish() -> onFinish
+    void <init>(com.tanamo.dicto.ui.Ques2,int,long,long) -> <init>
 de.hdodenhof.circleimageview.CircleImageView -> de.hdodenhof.circleimageview.CircleImageView:
     android.widget.ImageView$ScaleType SCALE_TYPE -> a
     android.graphics.Bitmap$Config BITMAP_CONFIG -> b
@@ -31365,7 +31497,7 @@ de.hdodenhof.circleimageview.CircleImageView -> de.hdodenhof.circleimageview.Cir
     void <init>(android.content.Context) -> <init>
     void <init>(android.content.Context,android.util.AttributeSet) -> <init>
     void <init>(android.content.Context,android.util.AttributeSet,int) -> <init>
-    void init() -> a
+    void init() -> init
     android.widget.ImageView$ScaleType getScaleType() -> getScaleType
     void setScaleType(android.widget.ImageView$ScaleType) -> setScaleType
     void setAdjustViewBounds(boolean) -> setAdjustViewBounds
@@ -31380,8 +31512,8 @@ de.hdodenhof.circleimageview.CircleImageView -> de.hdodenhof.circleimageview.Cir
     void setImageResource(int) -> setImageResource
     void setImageURI(android.net.Uri) -> setImageURI
     android.graphics.Bitmap getBitmapFromDrawable(android.graphics.drawable.Drawable) -> a
-    void setup() -> b
-    void updateShaderMatrix() -> c
+    void setup() -> a
+    void updateShaderMatrix() -> b
     void <clinit>() -> <clinit>
 de.hdodenhof.circleimageview.R -> de.hdodenhof.circleimageview.a:
 de.hdodenhof.circleimageview.R$styleable -> de.hdodenhof.circleimageview.a$a:
@@ -31461,7 +31593,7 @@ io.fabric.sdk.android.Fabric -> a.a.a.a.c:
     void setFabric(io.fabric.sdk.android.Fabric) -> c
     io.fabric.sdk.android.Fabric setCurrentActivity(android.app.Activity) -> a
     android.app.Activity getCurrentActivity() -> b
-    void init() -> j
+    void init() -> init
     java.lang.String getVersion() -> c
     java.lang.String getIdentifier() -> d
     void initializeKits(android.content.Context) -> a
@@ -31986,6 +32118,7 @@ io.fabric.sdk.android.services.concurrency.AsyncTask -> a.a.a.a.a.c.a:
     io.fabric.sdk.android.services.concurrency.AsyncTask$Status status -> l
     java.util.concurrent.atomic.AtomicBoolean cancelled -> m
     java.util.concurrent.atomic.AtomicBoolean taskInvoked -> n
+    void init() -> init
     void <init>() -> <init>
     void postResultIfNotInvoked(java.lang.Object) -> d
     java.lang.Object postResult(java.lang.Object) -> e
@@ -32674,8 +32807,9 @@ kotlin.Unit -> b.c:
     void <clinit>() -> <clinit>
 kotlin.jvm.functions.Function0 -> b.a.a.a:
     java.lang.Object invoke() -> a
-kotlin.jvm.internal.FunctionBase -> b.a.b.a:
-kotlin.jvm.internal.Intrinsics -> b.a.b.b:
+kotlin.jvm.internal.DefaultConstructorMarker -> b.a.b.a:
+kotlin.jvm.internal.FunctionBase -> b.a.b.b:
+kotlin.jvm.internal.Intrinsics -> b.a.b.c:
     void <init>() -> <init>
     void throwNpe() -> a
     void checkExpressionValueIsNotNull(java.lang.Object,java.lang.String) -> a
@@ -32684,16 +32818,26 @@ kotlin.jvm.internal.Intrinsics -> b.a.b.b:
     boolean areEqual(java.lang.Object,java.lang.Object) -> a
     java.lang.Throwable sanitizeStackTrace(java.lang.Throwable) -> a
     java.lang.Throwable sanitizeStackTrace(java.lang.Throwable,java.lang.String) -> a
-kotlin.jvm.internal.Lambda -> b.a.b.c:
+kotlin.jvm.internal.Lambda -> b.a.b.d:
     int arity -> a
     java.lang.String toString() -> toString
     void <init>(int) -> <init>
-kotlin.jvm.internal.Reflection -> b.a.b.d:
+kotlin.jvm.internal.Reflection -> b.a.b.e:
     kotlin.jvm.internal.ReflectionFactory factory -> a
     kotlin.reflect.KClass[] EMPTY_K_CLASS_ARRAY -> b
     java.lang.String renderLambdaToString(kotlin.jvm.internal.Lambda) -> a
     void <clinit>() -> <clinit>
-kotlin.jvm.internal.ReflectionFactory -> b.a.b.e:
+kotlin.jvm.internal.ReflectionFactory -> b.a.b.f:
     void <init>() -> <init>
     java.lang.String renderLambdaToString(kotlin.jvm.internal.Lambda) -> a
 kotlin.reflect.KClass -> b.b.a:
+kotlin.text.StringsKt -> b.c.a:
+kotlin.text.StringsKt__IndentKt -> b.c.b:
+kotlin.text.StringsKt__RegexExtensionsKt -> b.c.c:
+kotlin.text.StringsKt__StringBuilderJVMKt -> b.c.d:
+kotlin.text.StringsKt__StringBuilderKt -> b.c.e:
+kotlin.text.StringsKt__StringNumberConversionsKt -> b.c.f:
+kotlin.text.StringsKt__StringsJVMKt -> b.c.g:
+    boolean equals(java.lang.String,java.lang.String,boolean) -> a
+kotlin.text.StringsKt__StringsKt -> b.c.h:
+kotlin.text.StringsKt___StringsKt -> b.c.i:

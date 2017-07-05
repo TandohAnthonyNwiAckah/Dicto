@@ -27,6 +27,7 @@ import android.os.AsyncTask
 import android.os.Bundle
 import android.support.design.widget.Snackbar
 import android.support.v7.app.ActionBarDrawerToggle
+import android.support.v7.app.AlertDialog
 import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.*
@@ -50,8 +51,8 @@ import java.util.*
 
 
 /**
-* Created by ${TANDOH} on ${6/20/2017}.
-*/
+ * Created by ${TANDOH} on ${6/20/2017}.
+ */
 
 class MainActivity : AppCompatActivity() {
 
@@ -93,7 +94,7 @@ class MainActivity : AppCompatActivity() {
 
             if (menuItem.itemId == R.id.home) {
 
-                intent = Intent(this@MainActivity, MainActivity::class.java)
+                intent = Intent(this@MainActivity, Ques::class.java)
                 intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
                 startActivity(intent)
 
@@ -107,6 +108,12 @@ class MainActivity : AppCompatActivity() {
                     sendIntent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
                     startActivity(sendIntent)
                 }
+
+            } else if (menuItem.itemId == R.id.tell) {
+                intent = Intent(Intent.ACTION_SEND)
+                intent.type = "text/plain"
+                intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.sha))
+                startActivity(Intent.createChooser(intent, getString(R.string.shavi)))
 
             } else if (menuItem.itemId == R.id.more) {
                 try {
@@ -126,14 +133,14 @@ class MainActivity : AppCompatActivity() {
                 intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.fb))
                 try {
                     startActivity(Intent.createChooser(intent, getString(R.string.fb)))
-                } catch (ex: android.content.ActivityNotFoundException) {
+                } catch (ex: ActivityNotFoundException) {
                     Toast.makeText(this@MainActivity, R.string.no_em_ins, Toast.LENGTH_SHORT).show()
                 }
 
                 startActivity(intent)
             } else if (menuItem.itemId == R.id.quit) {
 
-                val dialog = android.support.v7.app.AlertDialog.Builder(this@MainActivity)
+                val dialog = AlertDialog.Builder(this@MainActivity)
                 dialog.setTitle(R.string.app_name)
                 dialog.setIcon(R.drawable.ic_launcher)
                 dialog.setMessage(R.string.dwq)

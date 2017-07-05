@@ -23,12 +23,18 @@ limitations under the License.
             android:id="@+id/home"
             android:checked="true"
             android:icon="@drawable/ic_apps_black_24dp"
-            android:title="Home" />
+            android:title="Quiz" />
 
         <item
             android:id="@+id/rat"
             android:icon="@drawable/ic_star_half_black_24dp"
             android:title="Rate Us" />
+
+        <item
+            android:id="@+id/tell"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Tell a friend" />
+
 
         <item
             android:id="@+id/more"

@@ -8,8 +8,8 @@ package android.support.transition;
 
 public final class R {
     public static final class id {
-        public static final int transition_current_scene = 0x7f0800b5;
-        public static final int transition_layout_save = 0x7f0800b6;
-        public static final int transition_scene_layoutid_cache = 0x7f0800b7;
+        public static final int transition_current_scene = 0x7f0800c5;
+        public static final int transition_layout_save = 0x7f0800c6;
+        public static final int transition_scene_layoutid_cache = 0x7f0800c7;
     }
 }

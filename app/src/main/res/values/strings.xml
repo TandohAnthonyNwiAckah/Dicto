@@ -45,4 +45,102 @@ limitations under the License.
     <string name="dictionary">dictionary</string>
 
 
+    <string name="sha">Please check out the Dicto App on google play! https://play.google.com/store/apps/details?id=com.tanamo.dicto</string>
+    <string name="shavi">Share via</string>
+
+    <string name="ques_1">1. Kotlin was created by which company ?</string>
+    <string name="ques_1_1">Google</string>
+    <string name="ques_1_2">JetBrains</string>
+    <string name="ques_1_3">Oracle</string>
+
+
+    <string name="ques_2">2. _____ is Immutable.</string>
+    <string name="ques_2_1">val</string>
+    <string name="ques_2_2">var</string>
+
+
+    <string name="ques_3">3. Kotlin is ____ % Interoperable with Java and Android.</string>
+    <string name="ques_3_1">100</string>
+
+    <string name="ques_4">4. Kotlin named after Island in St.Petersburg</string>
+    <string name="ques_4_1">True</string>
+    <string name="ques_4_2">False</string>
+
+    <string name="ques_5">5. Who is the Co-Founder of Android Inc.</string>
+    <string name="ques_5_1">Larry Page</string>
+    <string name="ques_5_2">Andy Rubin</string>
+    <string name="ques_5_3">James Gosling</string>
+    <string name="ques_5_4">Sundar Pichai</string>
+
+    <string name="ques_6">6. All Data Types in kotlin are all objects.</string>
+    <string name="ques_6_1">False</string>
+    <string name="ques_6_2">True</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <string name="queso_1">1. Adb stands for ?</string>
+    <string name="queso_1_1">Andoid Debug Bridge</string>
+    <string name="queso_1_2">Android Debug Bridge</string>
+    <string name="queso_1_3">Android Driver Bridge</string>
+
+
+    <string name="queso_2">2.Which is NOT state of an activity?.</string>
+    <string name="queso_2_1">Stored</string>
+    <string name="queso_2_2">Stopped</string>
+
+
+    <string name="queso_3">3. A fragment is a part or portion of an .</string>
+    <string name="queso_3_1">activity</string>
+
+    <string name="queso_4">4. Is list data type supported by AIDL?</string>
+    <string name="queso_4_1">Yes</string>
+    <string name="queso_4_2">No</string>
+
+    <string name="queso_5">5. What is AIDL?.</string>
+    <string name="queso_5_1">Android Interface Desktop Language</string>
+    <string name="queso_5_2">Android Interface Definition Language</string>
+    <string name="queso_5_3">Android Interface Description Language</string>
+    <string name="queso_5_4">Android Interface Description Logic</string>
+
+    <string name="queso_6">6. All Data Types in kotlin are not objects.</string>
+    <string name="queso_6_1">True</string>
+    <string name="queso_6_2">False</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </resources>

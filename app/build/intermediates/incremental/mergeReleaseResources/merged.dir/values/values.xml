@@ -186,6 +186,7 @@
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="white">#FFF7A7</color>
+    <color name="whiten">#FFF</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode">
             
             <enum name="normal" value="0"/>
@@ -594,6 +595,9 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="btn_height">48dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -637,6 +641,7 @@
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="edit_text_width">150dp</dimen>
     <dimen name="fastscroll_default_thickness">8dp</dimen>
     <dimen name="fastscroll_margin">0dp</dimen>
     <dimen name="fastscroll_minimum_range">50dp</dimen>
@@ -666,6 +671,7 @@
     <dimen name="notification_top_pad">10dp</dimen>
     <dimen name="notification_top_pad_large_text">5dp</dimen>
     <dimen name="spacing_large">16dp</dimen>
+    <dimen name="subtitle_size">20sp</dimen>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -734,7 +740,7 @@
     <string name="banner_ad_unit_id">ca-app-pub-5926407368322067/9651022035</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">b27b274a-3ea5-4f21-a621-1054cf9d0132</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">16e4230a-d601-473a-9811-0fa3d31dbf0b</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -771,6 +777,46 @@
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
     <string name="playstore_link">http://play.google.com/store/apps/details?id=</string>
+    <string name="ques_1">1. Kotlin was created by which company ?</string>
+    <string name="ques_1_1">Google</string>
+    <string name="ques_1_2">JetBrains</string>
+    <string name="ques_1_3">Oracle</string>
+    <string name="ques_2">2. _____ is Immutable.</string>
+    <string name="ques_2_1">val</string>
+    <string name="ques_2_2">var</string>
+    <string name="ques_3">3. Kotlin is ____ % Interoperable with Java and Android.</string>
+    <string name="ques_3_1">100</string>
+    <string name="ques_4">4. Kotlin named after Island in St.Petersburg</string>
+    <string name="ques_4_1">True</string>
+    <string name="ques_4_2">False</string>
+    <string name="ques_5">5. Who is the Co-Founder of Android Inc.</string>
+    <string name="ques_5_1">Larry Page</string>
+    <string name="ques_5_2">Andy Rubin</string>
+    <string name="ques_5_3">James Gosling</string>
+    <string name="ques_5_4">Sundar Pichai</string>
+    <string name="ques_6">6. All Data Types in kotlin are all objects.</string>
+    <string name="ques_6_1">False</string>
+    <string name="ques_6_2">True</string>
+    <string name="queso_1">1. Adb stands for ?</string>
+    <string name="queso_1_1">Andoid Debug Bridge</string>
+    <string name="queso_1_2">Android Debug Bridge</string>
+    <string name="queso_1_3">Android Driver Bridge</string>
+    <string name="queso_2">2.Which is NOT state of an activity?.</string>
+    <string name="queso_2_1">Stored</string>
+    <string name="queso_2_2">Stopped</string>
+    <string name="queso_3">3. A fragment is a part or portion of an .</string>
+    <string name="queso_3_1">activity</string>
+    <string name="queso_4">4. Is list data type supported by AIDL?</string>
+    <string name="queso_4_1">Yes</string>
+    <string name="queso_4_2">No</string>
+    <string name="queso_5">5. What is AIDL?.</string>
+    <string name="queso_5_1">Android Interface Desktop Language</string>
+    <string name="queso_5_2">Android Interface Definition Language</string>
+    <string name="queso_5_3">Android Interface Description Language</string>
+    <string name="queso_5_4">Android Interface Description Logic</string>
+    <string name="queso_6">6. All Data Types in kotlin are not objects.</string>
+    <string name="queso_6_1">True</string>
+    <string name="queso_6_2">False</string>
     <string name="ref">A reference work with a list of words from one or more languages, normally ordered alphabetically and explaining each word\'s meaning and sometimes containing information on its etymology, usage, translations, and other data.</string>
     <string name="s1">Save image</string>
     <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
@@ -779,6 +825,8 @@
     <string name="s5">Create calendar event</string>
     <string name="s6">Allow Ad to create a calendar event?</string>
     <string name="search_menu_title">Search</string>
+    <string name="sha">Please check out the Dicto App on google play! https://play.google.com/store/apps/details?id=com.tanamo.dicto</string>
+    <string name="shavi">Share via</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="website">Website</string>
     <string name="website_url">"http://www.tanamoinc.com/a/"</string>
@@ -1827,7 +1875,6 @@
         <item name="colorPrimaryDark">@color/primary_dark</item> 
         <item name="colorControlHighlight">@color/accent_translucent</item> 
         <item name="colorAccent">@color/accent</item>
-
     </style>
     <style name="CardView" parent="Base.CardView">
     </style>
@@ -2322,5 +2369,30 @@
         <item name="passwordToggleDrawable">@drawable/design_password_eye</item>
         <item name="passwordToggleTint">@color/design_tint_password_toggle</item>
         <item name="passwordToggleContentDescription">@string/password_toggle_content_description</item>
+    </style>
+    <style name="gr">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <style name="ls">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+    </style>
+    <style name="qs">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/whiten</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+    </style>
+    <style name="rs">
+        <item name="android:buttonTint" ns1:ignore="NewApi">@color/primary</item>
+        <item name="android:textColor">@color/whiten</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
     </style>
 </resources>

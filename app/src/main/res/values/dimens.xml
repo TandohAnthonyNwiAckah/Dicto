@@ -20,5 +20,10 @@ limitations under the License.
 
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="spacing_large">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="subtitle_size">20sp</dimen>
+    <dimen name="edit_text_width">150dp</dimen>
+    <dimen name="btn_height">48dp</dimen>
 
 </resources>

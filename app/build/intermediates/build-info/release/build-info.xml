@@ -3,12 +3,12 @@
     build-mode="FULL"
     format="10"
     plugin-version="3.0.0-alpha3"
-    timestamp="1498083227359"
+    timestamp="1499280414484"
     verifier="NOT_RUN" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="2374" />
     <task
         name="instant-run-dex"
         duration="0" />
@@ -20,15 +20,15 @@
         duration="0" />
 
     <artifact
-        location="E:\Kotlin\Dicto\app\release\app-release.apk"
+        location="E:\Kotlin\Github\Dicto\app\release\app-release.apk"
         type="MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1498083227359"
+        timestamp="1499280414484"
         verifier="NOT_RUN" >
         <artifact
-            location="E:\Kotlin\Dicto\app\release\app-release.apk"
+            location="E:\Kotlin\Github\Dicto\app\release\app-release.apk"
             type="MAIN" />
     </build>
 
