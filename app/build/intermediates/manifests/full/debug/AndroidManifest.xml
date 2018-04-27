@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="27" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -17,15 +17,12 @@
         android:normalScreens="true"
         android:smallScreens="true" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
-
     <application
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.tanamo.dicto.ui.Flash"
@@ -45,15 +42,19 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.tanamo.dicto.ui.Apc"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.tanamo.dicto.ui.Ques"
             android:label="@string/app_name"
             android:theme="@style/AppTheme" />
         <activity
             android:name="com.tanamo.dicto.ui.Ques2"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme" />
-        <activity
-            android:name="com.tanamo.dicto.ui.Ques3"
             android:label="@string/app_name"
             android:theme="@style/AppTheme" />
         <activity
@@ -67,6 +68,12 @@
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="e37648ec32244464a260f2ec74053af82bfd1335" />
+
+        <provider
+            android:name="com.crashlytics.android.CrashlyticsInitProvider"
+            android:authorities="com.tanamo.dicto.crashlyticsinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

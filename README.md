@@ -15,13 +15,13 @@ No internet connection needed.
 
 ## Minimum Requirements
 
-* Android Studio 3.0 Canary Channel
-* Kotlin compiler and runtime version -1.1.2-4
-* buildToolsVersion- 26.0.0
-* compileSdkVersion - 26 
-* targetsSdkVersion - 26
+* Android Studio 3.0
+* Kotlin compiler and runtime version -1.2.30
+* buildToolsVersion- 27.0.3
+* compileSdkVersion - 27 
+* targetsSdkVersion - 27
 * ankoVersion  - 0.9.1a
-* supportLibraryVersion -26.0.0-alpha1
+* supportLibraryVersion -27.1.1
 
 ## Help
 For help,email **tanamoinc@gmail.com.**

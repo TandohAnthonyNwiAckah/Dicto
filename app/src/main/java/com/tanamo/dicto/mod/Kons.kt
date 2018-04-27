@@ -26,55 +26,55 @@ import android.os.Build
 */
 object Kons {
 
-    val COUNTS = 1000
-    val BISA = 1024
-    val TAG = "tanamo"
-    val RWORD: Byte = 1
-    val RMEANING: Byte = 2
-    val UWORD: Byte = 3
-    val DWORD: Byte = 4
+    const val COUNTS = 1000
+    const val BISA = 1024
+    const val TAG = "tanamo"
+    const val RWORD: Byte = 1
+    const val RMEANING: Byte = 2
+    const val UWORD: Byte = 3
+    const val DWORD: Byte = 4
     @SuppressLint("SdCardPath")
     val DB_PATH = "/data/data/com.tanamo.dicto/databases/"
-    val DB_NAME = "dicto.db"
-    val TABLE_NAME = "tanamo_db"
+    const val DB_NAME = "dicto.db"
+    const val TABLE_NAME = "tanamo_db"
     var WORD = "word"
     var MEANING = "meaning"
-    val VERSION = 1
-    val ZERO = 0
-    val AUTHOR_EMAIL_ADDRESS = "tanamoinc@gmail.com"
-    val App_name = "com.tanamo.dicto"
+    const val VERSION = 1
+    const val ZERO = 0
+    const val AUTHOR_EMAIL_ADDRESS = "tanamoinc@gmail.com"
+    const val App_name = "com.tanamo.dicto"
 
 
     fun suV(code: () -> Unit) {
         sVersion(code, 21)
     }
 
-    fun sVersion(code: () -> Unit, sdk: Int) {
+    private fun sVersion(code: () -> Unit, sdk: Int) {
         if (Build.VERSION.SDK_INT >= sdk) {
             code.invoke()
         }
     }
 
     fun getAppName(ctx: Context, pkgName: String): String {
-        try {
+        return try {
             val pm = ctx.packageManager
             val appInfo = pm.getApplicationInfo(pkgName, 0)
             val label = pm.getApplicationLabel(appInfo).toString()
-            return label
+            label
         } catch (e: PackageManager.NameNotFoundException) {
-            return ""
+            ""
         }
 
     }
 
     fun getAppVersionName(ctx: Context, pkgName: String): String {
-        try {
+        return try {
             val pm = ctx.packageManager
             val pkgInfo = pm.getPackageInfo(pkgName, 0)
             val ver = pkgInfo.versionName
-            return ver
+            ver
         } catch (e: PackageManager.NameNotFoundException) {
-            return "0"
+            "0"
         }
 
     }

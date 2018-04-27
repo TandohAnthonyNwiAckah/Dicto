@@ -37,7 +37,6 @@ import android.widget.TextView
 import android.widget.Toast
 import com.tanamo.dicto.R
 import com.tanamo.dicto.db.Dict
-import com.tanamo.dicto.mod.About
 import com.tanamo.dicto.mod.Kons
 import com.tanamo.dicto.mod.Kons.App_name
 import com.tanamo.dicto.mod.Kons.DWORD
@@ -56,7 +55,7 @@ import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
-    val ctx = this
+    private val ctx = this
     var dia: Dialog? = null
     var txt3: TextView? = null
     var txt4: TextView? = null
@@ -78,7 +77,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    fun init() {
+    private fun init() {
         Log.d(TAG, "init: ")
         val content: View = findViewById(R.id.content)
 
@@ -92,14 +91,15 @@ class MainActivity : AppCompatActivity() {
             drawer_layout.closeDrawers()
             val intent: Intent
 
-            if (menuItem.itemId == R.id.home) {
+            when {
+                menuItem.itemId == R.id.home -> {
 
-                intent = Intent(this@MainActivity, Ques::class.java)
-                intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
-                startActivity(intent)
+                    intent = Intent(this@MainActivity, Ques::class.java)
+                    intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
+                    startActivity(intent)
 
-            } else if (menuItem.itemId == R.id.rat) {
-                try {
+                }
+                menuItem.itemId == R.id.rat -> try {
                     val sendIntent = Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.market_link) + App_name))
                     sendIntent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
                     startActivity(sendIntent)
@@ -108,15 +108,14 @@ class MainActivity : AppCompatActivity() {
                     sendIntent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
                     startActivity(sendIntent)
                 }
+                menuItem.itemId == R.id.tell -> {
+                    intent = Intent(Intent.ACTION_SEND)
+                    intent.type = "text/plain"
+                    intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.sha))
+                    startActivity(Intent.createChooser(intent, getString(R.string.shavi)))
 
-            } else if (menuItem.itemId == R.id.tell) {
-                intent = Intent(Intent.ACTION_SEND)
-                intent.type = "text/plain"
-                intent.putExtra(Intent.EXTRA_TEXT, getString(R.string.sha))
-                startActivity(Intent.createChooser(intent, getString(R.string.shavi)))
-
-            } else if (menuItem.itemId == R.id.more) {
-                try {
+                }
+                menuItem.itemId == R.id.more -> try {
                     val sendIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/search?q=tanamo%20inc&c=apps"))
                     sendIntent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
                     startActivity(sendIntent)
@@ -125,31 +124,32 @@ class MainActivity : AppCompatActivity() {
                     sendIntent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
                     startActivity(sendIntent)
                 }
+                menuItem.itemId == R.id.feedback -> {
+                    intent = Intent(Intent.ACTION_SEND)
+                    intent.type = "message/rfc822"
+                    intent.putExtra(Intent.EXTRA_EMAIL, arrayOf(Kons.AUTHOR_EMAIL_ADDRESS))
+                    intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.fb))
+                    try {
+                        startActivity(Intent.createChooser(intent, getString(R.string.fb)))
+                    } catch (ex: ActivityNotFoundException) {
+                        Toast.makeText(this@MainActivity, R.string.no_em_ins, Toast.LENGTH_SHORT).show()
+                    }
 
-            } else if (menuItem.itemId == R.id.feedback) {
-                intent = Intent(Intent.ACTION_SEND)
-                intent.type = "message/rfc822"
-                intent.putExtra(Intent.EXTRA_EMAIL, arrayOf(Kons.AUTHOR_EMAIL_ADDRESS))
-                intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.fb))
-                try {
-                    startActivity(Intent.createChooser(intent, getString(R.string.fb)))
-                } catch (ex: ActivityNotFoundException) {
-                    Toast.makeText(this@MainActivity, R.string.no_em_ins, Toast.LENGTH_SHORT).show()
+                    startActivity(intent)
                 }
+                menuItem.itemId == R.id.quit -> {
 
-                startActivity(intent)
-            } else if (menuItem.itemId == R.id.quit) {
+                    val dialog = AlertDialog.Builder(this@MainActivity)
+                    dialog.setTitle(R.string.app_name)
+                    dialog.setIcon(R.drawable.ic_launcher)
+                    dialog.setMessage(R.string.dwq)
+                    dialog.setNegativeButton("No") { _, _ -> }
+                    dialog.setPositiveButton("Yes") { _, _ ->
+                        finish()
+                        Toast.makeText(applicationContext, R.string.log_out_suc, Toast.LENGTH_SHORT).show()
+                    }.show()
 
-                val dialog = AlertDialog.Builder(this@MainActivity)
-                dialog.setTitle(R.string.app_name)
-                dialog.setIcon(R.drawable.ic_launcher)
-                dialog.setMessage(R.string.dwq)
-                dialog.setNegativeButton("No") { _, _ -> }
-                dialog.setPositiveButton("Yes") { _, _ ->
-                    finish()
-                    Toast.makeText(applicationContext, R.string.log_out_suc, Toast.LENGTH_SHORT).show()
-                }.show()
-
+                }
             }
 
             false
@@ -157,7 +157,7 @@ class MainActivity : AppCompatActivity() {
 
         )
 
-        val abt: ActionBarDrawerToggle = ActionBarDrawerToggle(this@MainActivity, drawer_layout, toolBar, R.string.app_name, R.string.app_name)
+        val abt = ActionBarDrawerToggle(this@MainActivity, drawer_layout, toolBar, R.string.app_name, R.string.app_name)
         abt.isDrawerIndicatorEnabled = true
         drawer_layout.setDrawerListener(abt)
         abt.syncState()
@@ -210,17 +210,17 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    fun shwDialog() {
+    private fun shwDialog() {
         Log.d(TAG, "shwDialog: ")
         dia = Dialog(ctx)
         dia!!.requestWindowFeature(Window.FEATURE_NO_TITLE)
         dia!!.setContentView(R.layout.dialog)
 
-        txt3 = dia!!.findViewById<TextView>(R.id.words)
-        txt4 = dia!!.findViewById<TextView>(R.id.meanings)
+        txt3 = dia!!.findViewById(R.id.words)
+        txt4 = dia!!.findViewById(R.id.meanings)
 
 
-        val but: ImageView = dia!!.findViewById<ImageView>(R.id.update)
+        val but: ImageView = dia!!.findViewById(R.id.update)
         but.setOnClickListener {
             word = txt3!!.text.toString()
             meaning = txt4!!.text.toString()
@@ -240,29 +240,30 @@ class MainActivity : AppCompatActivity() {
             Log.d(TAG, "doInBackground: ")
             val tag = p0[0]
 
-            if (tag == RWORD) {
-                lis.clear()
-                lis.addAll(dict!!.getWord())
-                ada!!.notifyDataSetChanged()
+            when (tag) {
+                RWORD -> {
+                    lis.clear()
+                    lis.addAll(dict!!.getWord())
+                    ada!!.notifyDataSetChanged()
 
-            } else if (tag == RMEANING) {
-                meaning = dict!!.getMeaning(word as String)
+                }
+                RMEANING -> meaning = dict!!.getMeaning(word as String)
+                UWORD -> {
+                    val word = txt3!!.text.toString()
+                    val meanin = txt4!!.text.toString()
+                    dict!!.addDict(word, meanin)
+                    lis.clear()
+                    lis.addAll(dict!!.getWord())
+                    ada!!.notifyDataSetChanged()
 
+                }
+                DWORD -> {
+                    val word = wordt!!.text.toString()
+                    val meanin = meanin!!.text.toString()
+                    dict!!.delDict(word, meanin)
+                    lis.clear()
 
-            } else if (tag == UWORD) {
-                val word = txt3!!.text.toString()
-                val meanin = txt4!!.text.toString()
-                dict!!.addDict(word, meanin)
-                lis.clear()
-                lis.addAll(dict!!.getWord())
-                ada!!.notifyDataSetChanged()
-
-            } else if (tag == DWORD) {
-                val word = wordt!!.text.toString()
-                val meanin = meanin!!.text.toString()
-                dict!!.delDict(word, meanin)
-                lis.clear()
-
+                }
             }
 
             return tag
@@ -293,7 +294,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     @SuppressLint("InlinedApi")
-    fun sbT() {
+    private fun sbT() {
         suV {
             window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
                     WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS)

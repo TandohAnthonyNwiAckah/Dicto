@@ -31,8 +31,8 @@ limitations under the License.
     <string name="author">Tanamo Inc.</string>
     <string name="website">Website</string>
     <string name="face">Facebook</string>
-    <string name="website_url">"http://www.tanamoinc.com/a/"</string>
-    <string name="face_url">https://www.facebook.com/Tanamo-Inc-204731483344765/</string>
+    <string name="website_url">"https://tanamo-inc.github.io/Home/"</string>
+    <string name="face_url">https://www.facebook.com/Tanamo-Inc</string>
     <string name="about">About</string>
     <string name="dwq">Do you really want to quit ?</string>
     <string name="log_out_suc">Quit success!</string>
@@ -119,28 +119,8 @@ limitations under the License.
     <string name="queso_6">6. All Data Types in kotlin are not objects.</string>
     <string name="queso_6_1">True</string>
     <string name="queso_6_2">False</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <string name="ansall">Answer All</string>
+    <string name="tryagain">Try Again</string>
 
 
 </resources>

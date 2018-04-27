@@ -1,329 +1,299 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-73:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\e2bbe8915030e87e91ace08a13fe74e2\AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\0c16954380e4bc57c43be3c09073e204\AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\6ec80d743dcf7b730dd132fd1977bc27\AndroidManifest.xml:45:1-56:12
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\4a7f6066d1f4b981be52b49c5d6cc68c\AndroidManifest.xml:2:1-13:12
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\76310c60a49b8bbc8c519d11c2cb1034\AndroidManifest.xml:22:1-33:12
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\8d71c9274adfad1769b4a011f0237ecf\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\65d2d7753fca2daf7dadda89cc61430b\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\41408e1eb8a6e8856b1b2f5c3e677fb8\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\56af96b664c3f60b73c701a26532fcf5\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\9bcd78a691a0cfb96708c0c442b0f7b4\AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\4d8a79eded6d67964f603c70490d4528\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\a2593f9367bfa7f879953e484dee0e18\AndroidManifest.xml:17:1-28:12
-MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\c26b608e2eccf0a1044104632b84e5d5\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2403f9a9ed5d330ee489779e4b38af9a\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-ads:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.0.aar\e3207cfe9da7fafe6141a75568e0b995\AndroidManifest.xml:16:1-18:12
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:16:1-27:12
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\0254fd72811eef887f90e53c72a8dc7b\AndroidManifest.xml:16:1-19:12
-MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\327626b91c95e97d1e4e0ff8b47fc80b\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\7a968c95e9fd737ed485bd463229135e\AndroidManifest.xml:16:1-19:12
-MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\7fa6d6098e820303296140d537c89740\AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\9fa5b67725c11310ae02bb42ae73e341\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\b3042ab52117078fea3aa6568b1ec41e\AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\687efcd5cf75fe574117e8260761ccad\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\9626e930adbb916319d684c26a370f50\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ff9445532760fab07a5a3de31c1f722f\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\b3c4e56aeefb11d0d8ffe64c6e3f7226\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\9afeec594876985abcbb5577a3bafbf7\AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\fc61773b51316ab2408165b66ebb19bd\AndroidManifest.xml:17:1-31:12
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-73:12
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:2:1-76:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\df357e4e531dc67a0731fb4546cd5fa5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d8f2bc0aeedca86e8e0f5003b6733b17\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8f56d9ef91d6d28d22b1a02f83bde91f\AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\123fef55c0b6878c219c6eeee7c3e00b\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7bb5f2658ab98be0714626a026b9e575\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-ads:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.0.aar\4b14ae9883d1c184810899a38ba2d7ca\AndroidManifest.xml:16:1-18:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:16:1-27:12
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\95c7893577deaf10326169db213d8e8b\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\a703b4910bf910d0e8f37e9d8a52f840\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\cf18e03b30973d10ce8df5c976fb197c\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\013017152ab26c0a46026f144b29b75d\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\64dc2d5f2ca105dbd274047a5e1beb7f\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\dbe672871256700eb5860f8107a14d0f\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\f76f5d271ed6771a5a1728f776a05aae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\95da2b0e80b44ebd6e38cd28ddd8c092\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e3dc4aec8872112802b0c0559746b4bb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\64f93f08a6a2bcf578dafadb5ca5df57\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b324c816479b793c0bd09306bb421ece\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\543bd7881bb4f34d2f2c72b023c46e0e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\2ac75abf10f98bcf9dec09c647ae6bbe\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f99a4aa3b02aadf507342f879761df96\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e4dbde1a0c5a395d9ed20d23cac78088\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\d8818d0cbc0d400223179a477402812e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\a18de66df7a18f9c108a4f88c1f4b9aa\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\2ff9a462cbf6aa671982b6617fba5f9b\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\a63126482294e0ac706782be5253e165\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\95583ec98aea29f503af26d6a4c6e43c\AndroidManifest.xml:22:1-33:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\3b09a6cd199f2dfd09404f174c2fd817\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\ec833161d921b48d92efb1234db8e25e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\059f296fa0454eeeb9f7c5c27477f9dd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\eb1ee8a767232920800dad1a2d13517c\AndroidManifest.xml:17:1-22:12
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:2:1-76:12
 	package
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:3:5-31
-		INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:2:1-76:12
+		INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:2:1-76:12
+		INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:5:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:20:5-78
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:5:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:20:5-78
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:5:22-76
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:5:22-76
 uses-permission#android.permission.INTERNET
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:6:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\e2bbe8915030e87e91ace08a13fe74e2\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\e2bbe8915030e87e91ace08a13fe74e2\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\0c16954380e4bc57c43be3c09073e204\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\0c16954380e4bc57c43be3c09073e204\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\6ec80d743dcf7b730dd132fd1977bc27\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\6ec80d743dcf7b730dd132fd1977bc27\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\4a7f6066d1f4b981be52b49c5d6cc68c\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\4a7f6066d1f4b981be52b49c5d6cc68c\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\76310c60a49b8bbc8c519d11c2cb1034\AndroidManifest.xml:29:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\76310c60a49b8bbc8c519d11c2cb1034\AndroidManifest.xml:29:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:19:5-66
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:19:5-66
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\a18de66df7a18f9c108a4f88c1f4b9aa\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\a18de66df7a18f9c108a4f88c1f4b9aa\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\2ff9a462cbf6aa671982b6617fba5f9b\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\2ff9a462cbf6aa671982b6617fba5f9b\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\a63126482294e0ac706782be5253e165\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\a63126482294e0ac706782be5253e165\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\95583ec98aea29f503af26d6a4c6e43c\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\95583ec98aea29f503af26d6a4c6e43c\AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:6:22-64
 supports-screens
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:8:5-12:39
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:8:5-12:39
 	android:largeScreens
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:10:9-36
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:10:9-36
 	android:smallScreens
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:12:9-36
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:12:9-36
 	android:normalScreens
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:11:9-37
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:11:9-37
 	android:anyDensity
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:9:9-34
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:9:9-34
 application
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:14:5-71:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\e2bbe8915030e87e91ace08a13fe74e2\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\e2bbe8915030e87e91ace08a13fe74e2\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\0c16954380e4bc57c43be3c09073e204\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\0c16954380e4bc57c43be3c09073e204\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\6ec80d743dcf7b730dd132fd1977bc27\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\6ec80d743dcf7b730dd132fd1977bc27\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\4a7f6066d1f4b981be52b49c5d6cc68c\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\4a7f6066d1f4b981be52b49c5d6cc68c\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\76310c60a49b8bbc8c519d11c2cb1034\AndroidManifest.xml:31:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\76310c60a49b8bbc8c519d11c2cb1034\AndroidManifest.xml:31:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\8d71c9274adfad1769b4a011f0237ecf\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\8d71c9274adfad1769b4a011f0237ecf\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\65d2d7753fca2daf7dadda89cc61430b\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\65d2d7753fca2daf7dadda89cc61430b\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\41408e1eb8a6e8856b1b2f5c3e677fb8\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\41408e1eb8a6e8856b1b2f5c3e677fb8\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\56af96b664c3f60b73c701a26532fcf5\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\56af96b664c3f60b73c701a26532fcf5\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\4d8a79eded6d67964f603c70490d4528\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\4d8a79eded6d67964f603c70490d4528\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\a2593f9367bfa7f879953e484dee0e18\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\a2593f9367bfa7f879953e484dee0e18\AndroidManifest.xml:26:5-20
-MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\c26b608e2eccf0a1044104632b84e5d5\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\c26b608e2eccf0a1044104632b84e5d5\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2403f9a9ed5d330ee489779e4b38af9a\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2403f9a9ed5d330ee489779e4b38af9a\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:23:5-26:19
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:23:5-26:19
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\0254fd72811eef887f90e53c72a8dc7b\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\0254fd72811eef887f90e53c72a8dc7b\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\327626b91c95e97d1e4e0ff8b47fc80b\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\327626b91c95e97d1e4e0ff8b47fc80b\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\7a968c95e9fd737ed485bd463229135e\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\7a968c95e9fd737ed485bd463229135e\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\7fa6d6098e820303296140d537c89740\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\7fa6d6098e820303296140d537c89740\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\9fa5b67725c11310ae02bb42ae73e341\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\9fa5b67725c11310ae02bb42ae73e341\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\b3042ab52117078fea3aa6568b1ec41e\AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\b3042ab52117078fea3aa6568b1ec41e\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\687efcd5cf75fe574117e8260761ccad\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\687efcd5cf75fe574117e8260761ccad\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\9626e930adbb916319d684c26a370f50\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\9626e930adbb916319d684c26a370f50\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ff9445532760fab07a5a3de31c1f722f\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ff9445532760fab07a5a3de31c1f722f\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\b3c4e56aeefb11d0d8ffe64c6e3f7226\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\b3c4e56aeefb11d0d8ffe64c6e3f7226\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\9afeec594876985abcbb5577a3bafbf7\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\9afeec594876985abcbb5577a3bafbf7\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\fc61773b51316ab2408165b66ebb19bd\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\fc61773b51316ab2408165b66ebb19bd\AndroidManifest.xml:29:5-20
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:14:5-74:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\123fef55c0b6878c219c6eeee7c3e00b\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\123fef55c0b6878c219c6eeee7c3e00b\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7bb5f2658ab98be0714626a026b9e575\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7bb5f2658ab98be0714626a026b9e575\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:23:5-26:19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\95c7893577deaf10326169db213d8e8b\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\95c7893577deaf10326169db213d8e8b\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\a703b4910bf910d0e8f37e9d8a52f840\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\a703b4910bf910d0e8f37e9d8a52f840\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\cf18e03b30973d10ce8df5c976fb197c\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\cf18e03b30973d10ce8df5c976fb197c\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\013017152ab26c0a46026f144b29b75d\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\013017152ab26c0a46026f144b29b75d\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\64dc2d5f2ca105dbd274047a5e1beb7f\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\64dc2d5f2ca105dbd274047a5e1beb7f\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\dbe672871256700eb5860f8107a14d0f\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\dbe672871256700eb5860f8107a14d0f\AndroidManifest.xml:19:5-21:19
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\a18de66df7a18f9c108a4f88c1f4b9aa\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\a18de66df7a18f9c108a4f88c1f4b9aa\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\2ff9a462cbf6aa671982b6617fba5f9b\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\2ff9a462cbf6aa671982b6617fba5f9b\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\a63126482294e0ac706782be5253e165\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\a63126482294e0ac706782be5253e165\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\95583ec98aea29f503af26d6a4c6e43c\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\95583ec98aea29f503af26d6a4c6e43c\AndroidManifest.xml:31:5-20
 	android:label
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:17:9-41
 	android:icon
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:16:9-43
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:18:9-40
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:18:9-40
 activity#com.tanamo.dicto.ui.Flash
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:20:9-27:20
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:20:9-27:20
 	android:label
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:22:13-45
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:21:13-53
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:23:13-26:29
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:21:13-53
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:23:13-26:29
 action#android.intent.action.MAIN
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:24:17-69
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:24:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:25:17-77
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:25:17-77
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:25:27-74
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:25:27-74
 activity#com.tanamo.dicto.ui.MainActivity
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:29:9-38:20
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:29:9-38:20
 	android:label
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:31:13-45
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:31:13-45
 	android:theme
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:32:13-44
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:32:13-44
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:30:13-60
-intent-filter#android.intent.category.DEFAULT
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:34:13-36:29
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:30:13-60
+intent-filter#category:name:android.intent.category.DEFAULT
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:34:13-36:29
 category#android.intent.category.DEFAULT
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:35:17-76
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:35:17-76
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:35:27-73
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:35:27-73
+activity#com.tanamo.dicto.ui.Apc
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:40:9-49:20
+	android:label
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:42:13-45
+	android:theme
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:41:13-51
 activity#com.tanamo.dicto.ui.Ques
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:41:9-44:47
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:51:9-54:47
 	android:label
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:43:13-45
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:53:13-45
 	android:theme
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:44:13-44
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:54:13-44
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:42:13-52
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:52:13-52
 activity#com.tanamo.dicto.ui.Ques2
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:47:9-50:47
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:56:9-59:47
 	android:label
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:49:13-45
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:58:13-45
 	android:theme
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:50:13-44
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:59:13-44
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:48:13-53
-activity#com.tanamo.dicto.ui.Ques3
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:52:9-55:47
-	android:label
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:54:13-45
-	android:theme
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:55:13-44
-	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:53:13-53
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:57:13-53
 activity#com.google.android.gms.ads.AdActivity
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:58:9-61:64
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:25:9-232
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:25:9-232
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:61:9-64:64
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:25:9-232
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:25:9-232
 	android:configChanges
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:60:13-122
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:63:13-122
 	android:theme
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:61:13-61
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:64:13-61
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:59:13-65
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:62:13-65
 meta-data#com.google.android.gms.version
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:63:9-65:69
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\b3042ab52117078fea3aa6568b1ec41e\AndroidManifest.xml:20:9-121
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\b3042ab52117078fea3aa6568b1ec41e\AndroidManifest.xml:20:9-121
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:66:9-68:69
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\dbe672871256700eb5860f8107a14d0f\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\dbe672871256700eb5860f8107a14d0f\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:65:13-66
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:68:13-66
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:64:13-58
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:67:13-58
 meta-data#io.fabric.ApiKey
-ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:67:9-69:72
+ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:70:9-72:72
 	android:value
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:69:13-69
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:72:13-69
 	android:name
-		ADDED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml:68:13-44
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml:71:13-44
 uses-sdk
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\e2bbe8915030e87e91ace08a13fe74e2\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-2.6.8.aar\e2bbe8915030e87e91ace08a13fe74e2\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\0c16954380e4bc57c43be3c09073e204\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.5] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\beta-1.2.5.aar\0c16954380e4bc57c43be3c09073e204\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\6ec80d743dcf7b730dd132fd1977bc27\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.3.17.aar\6ec80d743dcf7b730dd132fd1977bc27\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\4a7f6066d1f4b981be52b49c5d6cc68c\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.3.13] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\answers-1.3.13.aar\4a7f6066d1f4b981be52b49c5d6cc68c\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\76310c60a49b8bbc8c519d11c2cb1034\AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.3.17] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\fabric-1.3.17.aar\76310c60a49b8bbc8c519d11c2cb1034\AndroidManifest.xml:27:5-43
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\8d71c9274adfad1769b4a011f0237ecf\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\8d71c9274adfad1769b4a011f0237ecf\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\65d2d7753fca2daf7dadda89cc61430b\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\65d2d7753fca2daf7dadda89cc61430b\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\41408e1eb8a6e8856b1b2f5c3e677fb8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\41408e1eb8a6e8856b1b2f5c3e677fb8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\56af96b664c3f60b73c701a26532fcf5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\56af96b664c3f60b73c701a26532fcf5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\9bcd78a691a0cfb96708c0c442b0f7b4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\9bcd78a691a0cfb96708c0c442b0f7b4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\4d8a79eded6d67964f603c70490d4528\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\4d8a79eded6d67964f603c70490d4528\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\a2593f9367bfa7f879953e484dee0e18\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\a2593f9367bfa7f879953e484dee0e18\AndroidManifest.xml:20:5-44
-MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\c26b608e2eccf0a1044104632b84e5d5\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:1.2.1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\circleimageview-1.2.1.aar\c26b608e2eccf0a1044104632b84e5d5\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2403f9a9ed5d330ee489779e4b38af9a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\2403f9a9ed5d330ee489779e4b38af9a\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-ads:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.0.aar\e3207cfe9da7fafe6141a75568e0b995\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-ads:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.0.aar\e3207cfe9da7fafe6141a75568e0b995\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:22:5-43
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\80790bc87e9d1c665dcddba674a4b6ac\AndroidManifest.xml:22:5-43
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\0254fd72811eef887f90e53c72a8dc7b\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\0254fd72811eef887f90e53c72a8dc7b\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\327626b91c95e97d1e4e0ff8b47fc80b\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\327626b91c95e97d1e4e0ff8b47fc80b\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\7a968c95e9fd737ed485bd463229135e\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\7a968c95e9fd737ed485bd463229135e\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\7fa6d6098e820303296140d537c89740\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\7fa6d6098e820303296140d537c89740\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\9fa5b67725c11310ae02bb42ae73e341\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\9fa5b67725c11310ae02bb42ae73e341\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\b3042ab52117078fea3aa6568b1ec41e\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\b3042ab52117078fea3aa6568b1ec41e\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\687efcd5cf75fe574117e8260761ccad\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\687efcd5cf75fe574117e8260761ccad\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\9626e930adbb916319d684c26a370f50\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\9626e930adbb916319d684c26a370f50\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ff9445532760fab07a5a3de31c1f722f\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ff9445532760fab07a5a3de31c1f722f\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\b3c4e56aeefb11d0d8ffe64c6e3f7226\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\b3c4e56aeefb11d0d8ffe64c6e3f7226\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\9afeec594876985abcbb5577a3bafbf7\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\9afeec594876985abcbb5577a3bafbf7\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\fc61773b51316ab2408165b66ebb19bd\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\fc61773b51316ab2408165b66ebb19bd\AndroidManifest.xml:21:5-23:58
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
-INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\8d71c9274adfad1769b4a011f0237ecf\AndroidManifest.xml:23:9-75
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\df357e4e531dc67a0731fb4546cd5fa5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\df357e4e531dc67a0731fb4546cd5fa5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d8f2bc0aeedca86e8e0f5003b6733b17\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\d8f2bc0aeedca86e8e0f5003b6733b17\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8f56d9ef91d6d28d22b1a02f83bde91f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\8f56d9ef91d6d28d22b1a02f83bde91f\AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\123fef55c0b6878c219c6eeee7c3e00b\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\123fef55c0b6878c219c6eeee7c3e00b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7bb5f2658ab98be0714626a026b9e575\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\7bb5f2658ab98be0714626a026b9e575\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-ads:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.0.aar\4b14ae9883d1c184810899a38ba2d7ca\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.0.aar\4b14ae9883d1c184810899a38ba2d7ca\AndroidManifest.xml:17:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\6584cdb82d26232eaf9aff1bac825d27\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\95c7893577deaf10326169db213d8e8b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\95c7893577deaf10326169db213d8e8b\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\a703b4910bf910d0e8f37e9d8a52f840\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\a703b4910bf910d0e8f37e9d8a52f840\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\cf18e03b30973d10ce8df5c976fb197c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\cf18e03b30973d10ce8df5c976fb197c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\013017152ab26c0a46026f144b29b75d\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\013017152ab26c0a46026f144b29b75d\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\64dc2d5f2ca105dbd274047a5e1beb7f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\64dc2d5f2ca105dbd274047a5e1beb7f\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\dbe672871256700eb5860f8107a14d0f\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\dbe672871256700eb5860f8107a14d0f\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\f76f5d271ed6771a5a1728f776a05aae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\f76f5d271ed6771a5a1728f776a05aae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\95da2b0e80b44ebd6e38cd28ddd8c092\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\95da2b0e80b44ebd6e38cd28ddd8c092\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e3dc4aec8872112802b0c0559746b4bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e3dc4aec8872112802b0c0559746b4bb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\64f93f08a6a2bcf578dafadb5ca5df57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\64f93f08a6a2bcf578dafadb5ca5df57\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b324c816479b793c0bd09306bb421ece\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b324c816479b793c0bd09306bb421ece\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\543bd7881bb4f34d2f2c72b023c46e0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\543bd7881bb4f34d2f2c72b023c46e0e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\2ac75abf10f98bcf9dec09c647ae6bbe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\2ac75abf10f98bcf9dec09c647ae6bbe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f99a4aa3b02aadf507342f879761df96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f99a4aa3b02aadf507342f879761df96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e4dbde1a0c5a395d9ed20d23cac78088\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\e4dbde1a0c5a395d9ed20d23cac78088\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\d8818d0cbc0d400223179a477402812e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\d8818d0cbc0d400223179a477402812e\AndroidManifest.xml:20:5-44
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\a18de66df7a18f9c108a4f88c1f4b9aa\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\a18de66df7a18f9c108a4f88c1f4b9aa\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\2ff9a462cbf6aa671982b6617fba5f9b\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\2ff9a462cbf6aa671982b6617fba5f9b\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\a63126482294e0ac706782be5253e165\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\a63126482294e0ac706782be5253e165\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\95583ec98aea29f503af26d6a4c6e43c\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\95583ec98aea29f503af26d6a4c6e43c\AndroidManifest.xml:27:5-43
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\3b09a6cd199f2dfd09404f174c2fd817\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\3b09a6cd199f2dfd09404f174c2fd817\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\ec833161d921b48d92efb1234db8e25e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\ec833161d921b48d92efb1234db8e25e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\059f296fa0454eeeb9f7c5c27477f9dd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\059f296fa0454eeeb9f7c5c27477f9dd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\eb1ee8a767232920800dad1a2d13517c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\eb1ee8a767232920800dad1a2d13517c\AndroidManifest.xml:20:5-44
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Kotlin\Github\Dicto\app\src\main\AndroidManifest.xml
-meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\8d71c9274adfad1769b4a011f0237ecf\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\65d2d7753fca2daf7dadda89cc61430b\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\65d2d7753fca2daf7dadda89cc61430b\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\41408e1eb8a6e8856b1b2f5c3e677fb8\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0-alpha1.aar\41408e1eb8a6e8856b1b2f5c3e677fb8\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\56af96b664c3f60b73c701a26532fcf5\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0-alpha1.aar\56af96b664c3f60b73c701a26532fcf5\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\9bcd78a691a0cfb96708c0c442b0f7b4\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\9bcd78a691a0cfb96708c0c442b0f7b4\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\4d8a79eded6d67964f603c70490d4528\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:transition:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\transition-26.0.0-alpha1.aar\4d8a79eded6d67964f603c70490d4528\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\a2593f9367bfa7f879953e484dee0e18\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\a2593f9367bfa7f879953e484dee0e18\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\687efcd5cf75fe574117e8260761ccad\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-v4:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0-alpha1.aar\687efcd5cf75fe574117e8260761ccad\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\9626e930adbb916319d684c26a370f50\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0-alpha1.aar\9626e930adbb916319d684c26a370f50\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ff9445532760fab07a5a3de31c1f722f\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-fragment:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0-alpha1.aar\ff9445532760fab07a5a3de31c1f722f\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\b3c4e56aeefb11d0d8ffe64c6e3f7226\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0-alpha1.aar\b3c4e56aeefb11d0d8ffe64c6e3f7226\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\9afeec594876985abcbb5577a3bafbf7\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0-alpha1.aar\9afeec594876985abcbb5577a3bafbf7\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\fc61773b51316ab2408165b66ebb19bd\AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\fc61773b51316ab2408165b66ebb19bd\AndroidManifest.xml:25:5-27:41
-	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\8d71c9274adfad1769b4a011f0237ecf\AndroidManifest.xml:27:9-38
-	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\8d71c9274adfad1769b4a011f0237ecf\AndroidManifest.xml:26:9-47
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\7fa6d6098e820303296140d537c89740\AndroidManifest.xml:19:9-172
+		INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+		ADDED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Mobile_Studio\working on\Dicto\app\src\main\AndroidManifest.xml
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:14:13-75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\7fa6d6098e820303296140d537c89740\AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\7fa6d6098e820303296140d537c89740\AndroidManifest.xml:19:86-145
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\TANDOH\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\7fa6d6098e820303296140d537c89740\AndroidManifest.xml:19:19-85
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\daa2352f951bd3fb41153cf81a034f03\AndroidManifest.xml:13:13-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\cf18e03b30973d10ce8df5c976fb197c\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\cf18e03b30973d10ce8df5c976fb197c\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\cf18e03b30973d10ce8df5c976fb197c\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\cf18e03b30973d10ce8df5c976fb197c\AndroidManifest.xml:19:19-85

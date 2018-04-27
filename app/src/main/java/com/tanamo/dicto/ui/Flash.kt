@@ -38,7 +38,7 @@ import io.fabric.sdk.android.Fabric
 class Flash : AppCompatActivity() {
 
 
-    var dict: Dict? = null
+    private var dict: Dict? = null
     @SuppressLint("NewApi")
     override fun onCreate(savedInstanceState: Bundle?) {
         Log.d(TAG, "onCreate: ")

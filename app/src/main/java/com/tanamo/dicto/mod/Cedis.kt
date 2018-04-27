@@ -28,17 +28,15 @@ import kotlinx.android.synthetic.main.cedis.*
 
 
 /**
-* Created by ${TANDOH} on ${6/20/2017}.
-*/
+ * Created by ${TANDOH} on ${6/20/2017}.
+ */
 
 class Cedis : Fragment() {
 
-    var vie: View? = null
-    var adr: AdRequest? = null
+    private var adr: AdRequest? = null
 
-    override fun onCreateView(inflater: LayoutInflater?, @Nullable container: ViewGroup?, @Nullable savedInstanceState: Bundle?): View? {
-        vie = inflater?.inflate(R.layout.cedis, container, false)
-        return vie
+    override fun onCreateView(inflater: LayoutInflater, @Nullable container: ViewGroup?, @Nullable savedInstanceState: Bundle?): View? {
+        return inflater.inflate(R.layout.cedis, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {

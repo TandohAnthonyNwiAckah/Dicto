@@ -16,6 +16,7 @@ package com.tanamo.dicto.ui
  * limitations under the License.
  */
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
@@ -24,26 +25,16 @@ import android.text.TextUtils
 import android.view.View
 import android.view.Window
 import android.view.WindowManager
-import android.widget.EditText
-import android.widget.RadioButton
-import android.widget.TextView
 import android.widget.Toast
 import com.tanamo.dicto.R
-import com.tanamo.dicto.mod.Apc
+import kotlinx.android.synthetic.main.ques2.*
 
 /**
-* Created by ${TANDOH} on ${6/20/2017}.
-*/
+ * Created by ${TANDOH} on ${6/20/2017}.
+ */
 
 class Ques2 : Apc() {
     var medi: MediaPlayer? = null
-    var b: RadioButton? = null
-    var b1: RadioButton? = null
-    var b2: RadioButton? = null
-    var b3: RadioButton? = null
-    var b4: RadioButton? = null
-    var e: EditText? = null
-    var txt: TextView? = null
     private var n1: String? = null
     private var n2: String? = null
     private var n3: String? = null
@@ -55,18 +46,14 @@ class Ques2 : Apc() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         super.onCreate(savedInstanceState)
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
-
         setContentView(R.layout.ques2)
 
-
-        Timer(20000)
-
+        myTimer(20000)
         medi = MediaPlayer.create(this, R.raw.trv)
         medi!!.start()
 
 
     }
-
 
     fun init(v: View) {
 
@@ -74,37 +61,32 @@ class Ques2 : Apc() {
         var score = 0
 
         // Q1
-        b = findViewById(R.id.r2) as RadioButton
-        if (b!!.isChecked) score++
+        if (r2.isChecked) score++
 
         // Q2
-        b1 = findViewById(R.id.r4) as RadioButton
-        if (b1!!.isChecked) score++
+        if (r4!!.isChecked) score++
 
         // Q3
-        e = findViewById(R.id.e1) as EditText
-        val strr = e!!.text.toString()
+        val strr = e1.text.toString()
         if (strr.equals(getString(R.string.queso_3_1), ignoreCase = true)) score++
 
 
         // Q4
-        b2 = findViewById(R.id.r6) as RadioButton
-        if (b2!!.isChecked) score++
+        if (r6.isChecked) score++
 
         // Q5
-        b3 = findViewById(R.id.r9) as RadioButton
-        if (b3!!.isChecked) score++
+
+        if (r9.isChecked) score++
 
         // Q6
-        b4 = findViewById(R.id.r13) as RadioButton
-        if (b4!!.isChecked) score++
+        if (r13.isChecked) score++
 
-        n1 = b!!.text.toString()
-        n2 = b1!!.text.toString()
-        n3 = b2!!.text.toString()
-        n4 = b3!!.text.toString()
-        n5 = b4!!.text.toString()
-        n6 = e!!.text.toString()
+        n1 = r2.text.toString()
+        n2 = r4.text.toString()
+        n3 = r6.text.toString()
+        n4 = r9.text.toString()
+        n5 = r13.text.toString()
+        n6 = e1.text.toString()
 
 
         if (TextUtils.isEmpty(n1) || TextUtils.isEmpty(n2) || TextUtils.isEmpty(n3) || TextUtils.isEmpty(n4) || TextUtils.isEmpty(n5) || TextUtils.isEmpty(n6)) {
@@ -134,10 +116,8 @@ class Ques2 : Apc() {
 
     }
 
-
     override fun onResume() {
         super.onResume()
-
         sec!!.start()
         medi!!.start()
     }
@@ -148,22 +128,22 @@ class Ques2 : Apc() {
         medi!!.pause()
     }
 
-    fun Timer(time: Int) {
-        txt = findViewById(R.id.timmer) as TextView
+    private fun myTimer(time: Int) {
         sec = object : CountDownTimer(time.toLong(), 1000) {
             override fun onTick(millisUntilFinished: Long) {
                 tm = "" + millisUntilFinished / 1000
-                txt!!.text = tm
+                timmer.text = tm
 
             }
 
+            @SuppressLint("SetTextI18n")
             override fun onFinish() {
                 sec!!.cancel()
-                txt!!.text = ""
+                timmer.text = ""
                 if (!isFinishing) {
                     dia!!.show()
                     medi!!.stop()
-                    title!!.text = "Try Again"
+                    title!!.text = getString(R.string.tryagain)
                 }
 
             }

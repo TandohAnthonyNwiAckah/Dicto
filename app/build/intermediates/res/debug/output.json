@@ -1,1 +1,1 @@
-[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":3},"outputFile":{"path":"E:\\Kotlin\\Github\\Dicto\\app\\build\\intermediates\\res\\debug\\resources-debug.ap_"},"properties":{"packageId":"com.tanamo.dicto","split":""}}]
+[{"outputType":{"type":"PROCESSED_RES"},"apkInfo":{"type":"MAIN","splits":[],"versionCode":3,"versionName":"1.0","enabled":true,"outputFile":"app-debug.apk","fullName":"debug","baseName":"debug"},"path":"resources-debug.ap_","properties":{"packageId":"com.tanamo.dicto","split":"","minSdkVersion":"14"}}]

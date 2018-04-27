@@ -35,9 +35,9 @@ import java.io.FileOutputStream
 import java.io.IOException
 
 /**
-* Created by ${TANDOH} on ${6/20/2017}.
-*/
-class Dict(val context: Context) : SQLiteOpenHelper(context, DB_NAME, null, VERSION) {
+ * Created by ${TANDOH} on ${6/20/2017}.
+ */
+class Dict(private val context: Context) : SQLiteOpenHelper(context, DB_NAME, null, VERSION) {
 
 
     override fun onCreate(db: SQLiteDatabase) {
@@ -51,7 +51,7 @@ class Dict(val context: Context) : SQLiteOpenHelper(context, DB_NAME, null, VERS
 
     fun getDict() {
         Log.d(TAG, "getDict: ")
-        val fil = context.getDatabasePath(DB_PATH +DB_NAME)
+        val fil = context.getDatabasePath(DB_PATH + DB_NAME)
 
         if (!fil.exists()) {
             this@Dict.writableDatabase
@@ -93,7 +93,8 @@ class Dict(val context: Context) : SQLiteOpenHelper(context, DB_NAME, null, VERS
         return lis
     }
 
-    @Synchronized fun getMeaning(word: String): String {
+    @Synchronized
+    fun getMeaning(word: String): String {
         Log.d(TAG, "getMeaning: ")
         var meaning: String = ""
         val query = "SELECT $MEANING FROM $TABLE_NAME WHERE $WORD = '$word'"
@@ -107,7 +108,8 @@ class Dict(val context: Context) : SQLiteOpenHelper(context, DB_NAME, null, VERS
         return meaning
     }
 
-    @Synchronized fun addDict(word: String, meaning: String) {
+    @Synchronized
+    fun addDict(word: String, meaning: String) {
         Log.d(TAG, "addDict: ")
         val cvs = ContentValues()
         cvs.put(WORD, word)
@@ -117,7 +119,8 @@ class Dict(val context: Context) : SQLiteOpenHelper(context, DB_NAME, null, VERS
         db.close()
     }
 
-    @Synchronized fun delDict(word: String, meaning: String) {
+    @Synchronized
+    fun delDict(word: String, meaning: String) {
         val db = this@Dict.writableDatabase
         val sel = "$WORD LIKE ? AND $MEANING LIKE ?"
         val selArgs = arrayOf(word, meaning)
