@@ -24,17 +24,15 @@ import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.Window
 import android.view.WindowManager
-import com.crashlytics.android.Crashlytics
 import com.tanamo.dicto.R
 import com.tanamo.dicto.db.Dict
 import com.tanamo.dicto.mod.Kons.COUNTS
 import com.tanamo.dicto.mod.Kons.TAG
-import io.fabric.sdk.android.Fabric
 
 
 /**
-* Created by ${TANDOH} on ${6/20/2017}.
-*/
+ * Created by ${TANDOH} on ${6/20/2017}.
+ */
 class Flash : AppCompatActivity() {
 
 
@@ -45,7 +43,7 @@ class Flash : AppCompatActivity() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         super.onCreate(savedInstanceState)
         window.setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
-        Fabric.with(this, Crashlytics())
+
 /*
         relativeLayout {
             backgroundResource = R.drawable.ic_bg

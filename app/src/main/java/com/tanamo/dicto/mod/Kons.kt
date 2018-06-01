@@ -22,11 +22,11 @@ import android.content.pm.PackageManager
 import android.os.Build
 
 /**
-* Created by ${TANDOH} on ${6/20/2017}.
-*/
+ * Created by ${TANDOH} on ${6/20/2017}.
+ */
 object Kons {
 
-    const val COUNTS = 1000
+    const val COUNTS = 3000
     const val BISA = 1024
     const val TAG = "tanamo"
     const val RWORD: Byte = 1

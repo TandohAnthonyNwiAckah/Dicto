@@ -449,6 +449,14 @@
 <enum name="adjust_height" value="2"/>
 
 </attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="LottieAnimationView"><attr format="string" name="lottie_fileName"/><attr format="reference" name="lottie_rawRes"/><attr format="boolean" name="lottie_autoPlay"/><attr format="boolean" name="lottie_loop"/><attr format="enum" name="lottie_repeatMode">
+            <enum name="restart" value="1"/>
+            <enum name="reverse" value="2"/>
+        </attr><attr format="integer" name="lottie_repeatCount"/><attr format="string" name="lottie_imageAssetsFolder"/><attr format="float" name="lottie_progress"/><attr format="boolean" name="lottie_enableMergePathsForKitKatAndAbove"/><attr format="enum" name="lottie_cacheStrategy">
+            <enum name="none" value="0"/>
+            <enum name="weak" value="1"/>
+            <enum name="strong" value="2"/>
+        </attr><attr format="color" name="lottie_colorFilter"/><attr format="float" name="lottie_scale"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="alphabeticModifiers">
             <flag name="META" value="0x10000"/>
@@ -661,7 +669,6 @@
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="btn_height">48dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -760,6 +767,7 @@
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
+    <item name="lottie_layer_name" type="id"/>
     <item name="parent_matrix" type="id"/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
@@ -791,6 +799,7 @@
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="_00_00">00:00</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -823,6 +832,8 @@
     <string name="about">About</string>
     <string name="about_text">The best offline dictionary for both Java and Kotlin Developers </string>
     <string name="add_word">Add Word</string>
+    <string name="android">android</string>
+    <string name="ans">ans</string>
     <string name="ansall">Answer All</string>
     <string name="app_name">Dicto</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
@@ -830,7 +841,7 @@
     <string name="banner_ad_unit_id">ca-app-pub-5926407368322067/9651022035</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">2deb999a-d7a1-4daa-8cc6-7395aff2ac20</string>
+    <string name="com.crashlytics.android.build_id" ns2:ignore="UnusedResources,TypographyDashes" translatable="false">07aa5b27-4aef-448d-bcc0-599bad9e42dd</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
@@ -848,18 +859,18 @@
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
-    <string name="dictionary">dictionary</string>
     <string name="dwq">Do you really want to quit ?</string>
     <string name="face">Facebook</string>
     <string name="face_url">https://www.facebook.com/Tanamo-Inc</string>
     <string name="fb">Feedback</string>
+    <string name="feedback">FeedBack</string>
     <string name="fill_all">pls fill all the fields</string>
     <string name="github">Download Source Code</string>
     <string name="github_link">https://github.com/Tanamo-Inc/Dicto</string>
-    <string name="loading">Loading...</string>
     <string name="log_out_suc">Quit success!</string>
     <string name="market_link">market://details?id=</string>
     <string name="meaning">Meaning</string>
+    <string name="more_apps">More Apps</string>
     <string name="no_em_ins">There are no email clients installed.</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
@@ -907,7 +918,10 @@
     <string name="queso_6">6. All Data Types in kotlin are not objects.</string>
     <string name="queso_6_1">True</string>
     <string name="queso_6_2">False</string>
-    <string name="ref">A reference work with a list of words from one or more languages, normally ordered alphabetically and explaining each word\'s meaning and sometimes containing information on its etymology, usage, translations, and other data.</string>
+    <string name="quit">Quit</string>
+    <string name="quiz">Quiz</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="ref">Android is an open-source operating system that is used primarily on mobile devices, such as cell phones, tablets,televisions etc. It is a Linux kernel-based system that’s been equipped with rich components that allows developers to create and run apps that can perform both basic and advanced functions.</string>
     <string name="s1">Save image</string>
     <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
     <string name="s3">Accept</string>
@@ -918,6 +932,7 @@
     <string name="sha">Please check out the Dicto App on google play! https://play.google.com/store/apps/details?id=com.tanamo.dicto</string>
     <string name="shavi">Share via</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="tell_a_friend">Tell a friend</string>
     <string name="tryagain">Try Again</string>
     <string name="website">Website</string>
     <string name="website_url">"https://tanamo-inc.github.io/Home/"</string>
@@ -2012,9 +2027,9 @@
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
     <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/primary</item> 
-        <item name="colorPrimaryDark">@color/primary_dark</item> 
-        <item name="colorControlHighlight">@color/accent_translucent</item> 
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorControlHighlight">@color/accent_translucent</item>
         <item name="colorAccent">@color/accent</item>
     </style>
     <style name="CardView" parent="Base.CardView">

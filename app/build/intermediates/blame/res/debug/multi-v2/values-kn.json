@@ -1,61 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Mobile_Studio\\working on\\Dicto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
+            "outputFile": "E:\\Mobile_Studio\\Github\\Dicto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\d8f2bc0aeedca86e8e0f5003b6733b17\\res\\values-kn\\values-kn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,223,335,448,536,643,770,847,924,1006,1122,1233,1332,1445,1549,1663,1827,1927",
-                        "endColumns": "117,111,112,87,106,126,76,76,81,115,110,98,112,103,113,163,99,81",
-                        "endOffsets": "218,330,443,531,638,765,842,919,1001,1117,1228,1327,1440,1544,1658,1822,1922,2004"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,42",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,223,335,448,536,643,770,847,924,1006,1122,1233,1332,1445,1549,1663,1827,5036",
-                        "endColumns": "117,111,112,87,106,126,76,76,81,115,110,98,112,103,113,163,99,81",
-                        "endOffsets": "218,330,443,531,638,765,842,919,1001,1117,1228,1327,1440,1544,1658,1822,1922,5113"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-11.0.0.aar\\4b14ae9883d1c184810899a38ba2d7ca\\res\\values-kn\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9",
-                        "startColumns": "0,0,0,0,0,0",
-                        "startOffsets": "237,305,426,492,559,640",
-                        "endColumns": "67,120,65,66,80,106",
-                        "endOffsets": "304,425,491,558,639,746"
-                    },
-                    "to": {
-                        "startLines": "36,37,38,39,40,41",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "4502,4574,4699,4769,4840,4925",
-                        "endColumns": "71,124,69,70,84,110",
-                        "endOffsets": "4569,4694,4764,4835,4920,5031"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\d8818d0cbc0d400223179a477402812e\\res\\values-kn\\values-kn.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "43",
-                        "startColumns": "4",
-                        "startOffsets": "5118",
-                        "endColumns": "100",
-                        "endOffsets": "5214"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.0.aar\\cf18e03b30973d10ce8df5c976fb197c\\res\\values-kn\\values.xml",
+                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.0.0.aar\\6ad8403abe936e4ec569b12eb1b92f3f\\res\\values-kn\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -72,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.0.0.aar\\dbe672871256700eb5860f8107a14d0f\\res\\values-kn\\values.xml",
+                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-11.0.0.aar\\24290a129f534f3f3c1bc4cdca8e0e76\\res\\values-kn\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -86,6 +35,57 @@
                         "startOffsets": "2948",
                         "endColumns": "204",
                         "endOffsets": "3148"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-11.0.0.aar\\3ddee1a3df6610a0d435bafdb1659aa7\\res\\values-kn\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "0,0,0,0,0,0",
+                        "startOffsets": "237,305,426,492,559,640",
+                        "endColumns": "67,120,65,66,80,106",
+                        "endOffsets": "304,425,491,558,639,746"
+                    },
+                    "to": {
+                        "startLines": "36,37,38,39,40,41",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "4502,4574,4699,4769,4840,4925",
+                        "endColumns": "71,124,69,70,84,110",
+                        "endOffsets": "4569,4694,4764,4835,4920,5031"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\cd122a10159e8c06fe84623ad9009c56\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,223,335,448,536,643,770,847,924,1006,1122,1233,1332,1445,1549,1663,1827,1927",
+                        "endColumns": "117,111,112,87,106,126,76,76,81,115,110,98,112,103,113,163,99,81",
+                        "endOffsets": "218,330,443,531,638,765,842,919,1001,1117,1228,1327,1440,1544,1658,1822,1922,2004"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,42",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,223,335,448,536,643,770,847,924,1006,1122,1233,1332,1445,1549,1663,1827,5036",
+                        "endColumns": "117,111,112,87,106,126,76,76,81,115,110,98,112,103,113,163,99,81",
+                        "endOffsets": "218,330,443,531,638,765,842,919,1001,1117,1228,1327,1440,1544,1658,1822,1922,5113"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\8eb7a6a4b667e1fd6357ddb9622113a4\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "43",
+                        "startColumns": "4",
+                        "startOffsets": "5118",
+                        "endColumns": "100",
+                        "endOffsets": "5214"
                     }
                 }
             ]

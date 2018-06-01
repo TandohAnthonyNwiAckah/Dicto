@@ -1,4 +1,4 @@
-#Fri Apr 27 15:55:12 BST 2018
-base.0=E\:\\Mobile_Studio\\working on\\Dicto\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Fri Jun 01 12:56:25 BST 2018
+base.0=E\:\\Mobile_Studio\\Github\\Dicto\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

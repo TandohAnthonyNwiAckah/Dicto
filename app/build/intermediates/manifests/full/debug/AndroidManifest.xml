@@ -18,6 +18,7 @@
         android:smallScreens="true" />
 
     <application
+        android:name="com.tanamo.dicto.Tanamo"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"

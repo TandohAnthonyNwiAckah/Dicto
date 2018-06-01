@@ -2,14 +2,14 @@
 
 A must have app for all android Developers.
 
-Dicto is an offline dictionary for developers interested in learning both kotlin and Java.It's very easy to use.
-No internet connection needed.
+Dicto is an App built for Android developers to improve their programming skills.It's very easy to use.
+
 
 ## ***PREVIEW***
 
-| Menu  | Quiz | Dictionary |
-| -------------       |     ------------- | ------------- |
-| ![Main Page](pics/a1.png) | ![Main Page](pics/a2.png)| ![Main Page](pics/a3.png)|
+| Home | Glossary |
+|     ------------- | ------------- |
+| ![Main Page](pics/a3.png)| ![Main Page](pics/a2.png)|
 
 
 
@@ -20,7 +20,7 @@ No internet connection needed.
 * buildToolsVersion- 27.0.3
 * compileSdkVersion - 27 
 * targetsSdkVersion - 27
-* ankoVersion  - 0.9.1a
+* ankoVersion  - 0.10.4
 * supportLibraryVersion -27.1.1
 
 ## Help

@@ -19,12 +19,11 @@ limitations under the License.
     <style name="AppTheme" parent="BaseTheme" />
 
     <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/primary</item> 
-        <item name="colorPrimaryDark">@color/primary_dark</item> 
-        <item name="colorControlHighlight">@color/accent_translucent</item> 
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorControlHighlight">@color/accent_translucent</item>
         <item name="colorAccent">@color/accent</item>
     </style>
-
 
     <style name="ls">
         <item name="android:layout_width">match_parent</item>
@@ -41,13 +40,11 @@ limitations under the License.
         <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
     </style>
 
-
     <style name="gr">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:orientation">vertical</item>
     </style>
-
 
     <style name="rs">
         <item name="android:buttonTint" tools:ignore="NewApi">@color/primary</item>

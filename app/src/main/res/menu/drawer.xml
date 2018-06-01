@@ -23,35 +23,35 @@ limitations under the License.
             android:id="@+id/home"
             android:checked="true"
             android:icon="@drawable/ic_apps_black_24dp"
-            android:title="Quiz" />
+            android:title="@string/quiz" />
 
         <item
             android:id="@+id/rat"
             android:icon="@drawable/ic_star_half_black_24dp"
-            android:title="Rate Us" />
+            android:title="@string/rate_us" />
 
         <item
             android:id="@+id/tell"
             android:icon="@drawable/ic_share_black_24dp"
-            android:title="Tell a friend" />
+            android:title="@string/tell_a_friend" />
 
 
         <item
             android:id="@+id/more"
             android:icon="@drawable/ic_more_horiz_black_24dp"
-            android:title="More Apps" />
+            android:title="@string/more_apps" />
 
 
         <item
             android:id="@+id/feedback"
             android:icon="@drawable/ic_send_black_24dp"
-            android:title="FeedBack" />
+            android:title="@string/feedback" />
 
 
         <item
             android:id="@+id/quit"
             android:icon="@drawable/ic_logout"
-            android:title="Quit" />
+            android:title="@string/quit" />
 
 
     </group>

@@ -234,6 +234,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("StaticFieldLeak")
     inner class Proc : AsyncTask<Byte, Void, Byte>() {
 
         override fun doInBackground(vararg p0: Byte?): Byte? {

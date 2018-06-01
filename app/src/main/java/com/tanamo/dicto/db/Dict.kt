@@ -22,6 +22,7 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
 import android.util.Log
+import com.tanamo.dicto.R
 import com.tanamo.dicto.mod.Kons.BISA
 import com.tanamo.dicto.mod.Kons.DB_NAME
 import com.tanamo.dicto.mod.Kons.DB_PATH
@@ -67,7 +68,7 @@ class Dict(private val context: Context) : SQLiteOpenHelper(context, DB_NAME, nu
                 ous.close()
 
             } catch (e: IOException) {
-                Log.e("", "Try Again Later")
+                Log.e("", context.getString(R.string.tryagain))
 
             }
 

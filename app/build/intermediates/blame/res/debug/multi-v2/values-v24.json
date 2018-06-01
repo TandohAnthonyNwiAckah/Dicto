@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\Mobile_Studio\\working on\\Dicto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "E:\\Mobile_Studio\\Github\\Dicto\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\d8f2bc0aeedca86e8e0f5003b6733b17\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\cd122a10159e8c06fe84623ad9009c56\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\e4dbde1a0c5a395d9ed20d23cac78088\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Tanamo\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\a515c3f9a0d1e923e4b5707d4836be7d\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

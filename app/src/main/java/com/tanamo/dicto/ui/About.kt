@@ -36,43 +36,43 @@ class About(private val mCtx: Context) {
         val factory = LayoutInflater.from(mCtx)
 
         @SuppressLint("InflateParams")
-        val dialogView = factory.inflate(R.layout.about, null)
+        val vie = factory.inflate(R.layout.about, null)
 
 
-        innerUpdate(dialogView)
+        innerUpdate(vie)
 
         val adBuilder = AlertDialog.Builder(mCtx)
                 .setTitle(R.string.app_name)
                 .setIcon(R.drawable.ic_launcher)
                 .setCancelable(true)
                 .setPositiveButton("OK", null)
-                .setView(dialogView)
+                .setView(vie)
 
         adBuilder.show()
 
     }
 
     @SuppressLint("SetTextI18n")
-    private fun innerUpdate(dialogView: View) {
+    private fun innerUpdate(vie: View) {
 
         // app name & version
         val appText = "${getAppName(mCtx, mCtx.packageName)} v ${getAppVersionName(mCtx, mCtx.packageName)}"
-        dialogView.app_name.text = appText
+        vie.app_name.text = appText
 
         // author
-        dialogView.author.text = "Developed by:${mCtx.getString(R.string.author)}"
+        vie.author.text = "Developed by:${mCtx.getString(R.string.author)}"
 
         // text
-        dialogView.needs.setText(R.string.about_text)
+        vie.needs.setText(R.string.about_text)
 
         // website
-        dialogView.website.text = "${mCtx.getString(R.string.website)}:\n${mCtx.getString(R.string.website_url)}"
+        vie.website.text = "${mCtx.getString(R.string.website)}:\n${mCtx.getString(R.string.website_url)}"
 
         // Github
-        dialogView.bugs.text = "${mCtx.getString(R.string.github)}:\n${mCtx.getString(R.string.github_link)}"
+        vie.bugs.text = "${mCtx.getString(R.string.github)}:\n${mCtx.getString(R.string.github_link)}"
 
         // face
-        dialogView.face.text = "${mCtx.getString(R.string.face)}:\n${mCtx.getString(R.string.face_url)}"
+        vie.face.text = "${mCtx.getString(R.string.face)}:\n${mCtx.getString(R.string.face_url)}"
 
 
     }

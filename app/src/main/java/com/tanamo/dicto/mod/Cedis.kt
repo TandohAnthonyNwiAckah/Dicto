@@ -33,7 +33,7 @@ import kotlinx.android.synthetic.main.cedis.*
 
 class Cedis : Fragment() {
 
-    private var adr: AdRequest? = null
+    private lateinit var adr: AdRequest
 
     override fun onCreateView(inflater: LayoutInflater, @Nullable container: ViewGroup?, @Nullable savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.cedis, container, false)
@@ -42,7 +42,7 @@ class Cedis : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         adr = AdRequest.Builder().build()
-        adV!!.loadAd(adr!!)
+        adV!!.loadAd(adr)
     }
 
 }

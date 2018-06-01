@@ -16,16 +16,16 @@ limitations under the License.
 <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/drawer_layout"
     android:fitsSystemWindows="true">
 
     <android.support.design.widget.CoordinatorLayout
         android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/ic_bg"
+        android:background="@drawable/ic_backg"
         android:orientation="vertical">
 
         <LinearLayout
@@ -51,8 +51,7 @@ limitations under the License.
 
             <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                >
+                android:layout_height="match_parent">
 
                 <TextView
                     android:id="@+id/tio"
@@ -83,7 +82,7 @@ limitations under the License.
                         android:layout_height="55dp"
                         android:layout_gravity="center"
                         android:layout_weight="1"
-                        android:src="@android:drawable/ic_menu_delete" />
+                        android:src="@drawable/ic_delete_sweep" />
 
                     <AutoCompleteTextView
                         android:id="@+id/searchw"
@@ -92,7 +91,7 @@ limitations under the License.
                         android:layout_weight="5"
                         android:background="@drawable/ic_border"
                         android:focusable="true"
-                        android:hint="dictionary"
+                        android:hint="@string/android"
                         android:padding="4dp"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/white"
@@ -102,10 +101,11 @@ limitations under the License.
                     <ImageView
                         android:id="@+id/ser"
                         android:layout_width="0dp"
-                        android:layout_height="wrap_content"
+                        android:layout_height="55dp"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:src="@android:drawable/ic_search_category_default" />
+                        android:src="@drawable/ic_search"
+                        tools:ignore="ContentDescription" />
 
                 </LinearLayout>
 
@@ -123,7 +123,7 @@ limitations under the License.
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="sans-serif"
-                        android:hint="@string/dictionary"
+                        android:hint="@string/android"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColor="@color/white"
                         android:textColorHint="@color/white"

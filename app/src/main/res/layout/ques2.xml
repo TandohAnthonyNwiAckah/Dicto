@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_bg">
+    android:background="@drawable/ic_backg">
 
     <ImageView
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:hint="00:00"
+        android:hint="@string/_00_00"
         android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF"
         android:textSize="20sp"
@@ -118,7 +118,7 @@
                     android:layout_below="@id/q3"
                     android:background="@color/primary"
                     android:focusedByDefault="false"
-                    android:hint="ans"
+                    android:hint="@string/ans"
                     android:inputType="text"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white">

@@ -42,6 +42,10 @@ android {
     productFlavors {
     }
 
+
+
+
+
 }
 
 dependencies {
@@ -55,9 +59,11 @@ dependencies {
     implementation 'com.google.android.gms:play-services-ads:11.0.0'
     implementation "org.jetbrains.anko:anko-sdk15:$ankoVersion"
     implementation "org.jetbrains.anko:anko-appcompat-v7:$ankoVersion"
+    implementation 'com.airbnb.android:lottie:2.5.1'
     implementation('com.crashlytics.sdk.android:crashlytics:2.9.1@aar') {
         transitive = true
     }
+    implementation 'junit:junit:4.12'
 }
 
 

@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_bg">
+    android:background="@drawable/ic_backg">
 
     <TextView
         android:id="@+id/timmer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:hint="00:00"
+        android:hint="@string/_00_00"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
         android:textSize="20sp"
@@ -110,7 +110,7 @@
                     android:layout_height="wrap_content"
                     android:layout_below="@id/q3"
                     android:background="@color/primary"
-                    android:hint="ans"
+                    android:hint="@string/ans"
                     android:inputType="text"
                     android:textColor="@color/white"
                     android:textColorHint="@color/white">
@@ -204,9 +204,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:src="@drawable/ic_sub"
                 android:onClick="init"
-                />
+                android:src="@drawable/ic_sub" />
 
         </LinearLayout>
 

@@ -33,12 +33,12 @@ import kotlinx.android.synthetic.main.ques.*
  */
 class Ques : Apc() {
     var medi: MediaPlayer? = null
-    private var n1: String? = null
-    private var n2: String? = null
-    private var n3: String? = null
-    private var n4: String? = null
-    private var n5: String? = null
-    private var n6: String? = null
+    private var n1: String = ""
+    private var n2: String = ""
+    private var n3: String = ""
+    private var n4: String = ""
+    private var n5: String = ""
+    private var n6: String = ""
 
     override fun onCreate(savedInstanceState: Bundle?) {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
@@ -95,13 +95,13 @@ class Ques : Apc() {
             val strScore: String
             if (score == 6) {
                 strScore = "Excellent! You score $score out 6!"
-                dia!!.show()
+                dia.show()
                 medi!!.stop()
                 sec!!.cancel()
                 title?.text = strScore
             } else {
                 strScore = "You score  $score out 6."
-                dia!!.show()
+                dia.show()
                 medi!!.stop()
                 sec!!.cancel()
                 title!!.text = strScore
@@ -126,6 +126,7 @@ class Ques : Apc() {
         medi!!.pause()
     }
 
+
     private fun myTimer(time: Int) {
 
         sec = object : CountDownTimer(time.toLong(), 1000) {
@@ -140,7 +141,7 @@ class Ques : Apc() {
                 sec!!.cancel()
                 timmer.text = ""
                 if (!isFinishing) {
-                    dia!!.show()
+                    dia.show()
                     medi!!.stop()
                     title!!.text = getString(R.string.tryagain)
                 }

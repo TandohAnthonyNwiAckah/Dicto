@@ -20,7 +20,6 @@ limitations under the License.
     <string name="app_name">Dicto</string>
     <string name="word">Word</string>
     <string name="meaning">Meaning</string>
-    <string name="loading">Loading...</string>
     <string name="add_word">Add Word</string>
     <string name="playstore_link">http://play.google.com/store/apps/details?id=</string>
     <string name="market_link">market://details?id=</string>
@@ -41,8 +40,8 @@ limitations under the License.
     <string name="word_to_del">No word to delete</string>
     <string name="word_to_ser">No word to search</string>
     <string name="fill_all">pls fill all the fields</string>
-    <string name="ref">A reference work with a list of words from one or more languages, normally ordered alphabetically and explaining each word\'s meaning and sometimes containing information on its etymology, usage, translations, and other data.</string>
-    <string name="dictionary">dictionary</string>
+    <string name="ref">Android is an open-source operating system that is used primarily on mobile devices, such as cell phones, tablets,televisions etc. It is a Linux kernel-based system that’s been equipped with rich components that allows developers to create and run apps that can perform both basic and advanced functions.</string>
+    <string name="android">android</string>
 
 
     <string name="sha">Please check out the Dicto App on google play! https://play.google.com/store/apps/details?id=com.tanamo.dicto</string>
@@ -121,6 +120,14 @@ limitations under the License.
     <string name="queso_6_2">False</string>
     <string name="ansall">Answer All</string>
     <string name="tryagain">Try Again</string>
+    <string name="quiz">Quiz</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="tell_a_friend">Tell a friend</string>
+    <string name="more_apps">More Apps</string>
+    <string name="feedback">FeedBack</string>
+    <string name="quit">Quit</string>
+    <string name="_00_00">00:00</string>
+    <string name="ans">ans</string>
 
 
 </resources>

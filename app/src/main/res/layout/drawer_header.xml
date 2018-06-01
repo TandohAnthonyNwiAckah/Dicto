@@ -39,11 +39,11 @@ limitations under the License.
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="@dimen/spacing_large"
         android:layout_marginStart="@dimen/spacing_large"
-        android:fontFamily="sans-serif"
+        android:fontFamily="@font/opensans"
         android:text="@string/app_name"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textColor="@color/accent"
-        android:textSize="25sp"
+        android:textSize="26sp"
         android:textStyle="bold"
         tools:targetApi="jelly_bean" />
 

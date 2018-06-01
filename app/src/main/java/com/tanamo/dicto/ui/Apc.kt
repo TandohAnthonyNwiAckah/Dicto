@@ -15,7 +15,7 @@ import com.tanamo.dicto.R
  */
 
 open class Apc : AppCompatActivity() {
-    var dia: Dialog? = null
+    lateinit var dia: Dialog
     var ctx: Context = this@Apc
     private var imag: ImageView? = null
     private var imag2: ImageView? = null
@@ -34,18 +34,18 @@ open class Apc : AppCompatActivity() {
     private fun shwDialog() {
 
         dia = Dialog(ctx)
-        dia!!.requestWindowFeature(Window.FEATURE_NO_TITLE)
-        dia!!.setContentView(R.layout.ap)
-        dia!!.setCancelable(false)
-        dia!!.setCanceledOnTouchOutside(false)
+        dia.requestWindowFeature(Window.FEATURE_NO_TITLE)
+        dia.setContentView(R.layout.ap)
+        dia.setCancelable(false)
+        dia.setCanceledOnTouchOutside(false)
 
-        title = dia!!.findViewById(R.id.title)
+        title = dia.findViewById(R.id.title)
 
-        imag = dia!!.findViewById(R.id.quit)
+        imag = dia.findViewById(R.id.quit)
 
-        imag2 = dia!!.findViewById(R.id.replay)
+        imag2 = dia.findViewById(R.id.replay)
 
-        imag3 = dia!!.findViewById(R.id.nxt)
+        imag3 = dia.findViewById(R.id.nxt)
 
 
         imag!!.setOnClickListener({
