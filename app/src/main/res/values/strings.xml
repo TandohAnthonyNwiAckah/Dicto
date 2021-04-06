@@ -1,20 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<!--
-Copyright (C) 2016 Tanamo Inc.
-
-Licensed under the Apache License, Version 2.0 (the "License");
-You may obtain a copy of the License at
-
- http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- See the License for the specific language governing permissions and
-limitations under the License.
--->
-
 <resources>
 
     <string name="app_name">Dicto</string>
@@ -27,16 +11,16 @@ limitations under the License.
     <string name="no_em_ins">There are no email clients installed.</string>
     <string name="fb">Feedback</string>
     <string name="about_text">The best offline dictionary for both Java and Kotlin Developers </string>
-    <string name="author">Tanamo Inc.</string>
+    <string name="author">Tanacom Limited.</string>
     <string name="website">Website</string>
     <string name="face">Facebook</string>
-    <string name="website_url">"https://tanamo-inc.github.io/Home/"</string>
-    <string name="face_url">https://www.facebook.com/Tanamo-Inc</string>
+    <string name="website_url">"https://tanacom.io"</string>
+    <string name="face_url">https://www.facebook.com/TanacomLtd</string>
     <string name="about">About</string>
     <string name="dwq">Do you really want to quit ?</string>
     <string name="log_out_suc">Quit success!</string>
     <string name="github">Download Source Code</string>
-    <string name="github_link">https://github.com/Tanamo-Inc/Dicto</string>
+    <string name="github_link">https://github.com/TandohAnthonyNwiAckah/Dicto</string>
     <string name="word_to_del">No word to delete</string>
     <string name="word_to_ser">No word to search</string>
     <string name="fill_all">pls fill all the fields</string>
@@ -74,21 +58,6 @@ limitations under the License.
     <string name="ques_6">6. All Data Types in kotlin are all objects.</string>
     <string name="ques_6_1">False</string>
     <string name="ques_6_2">True</string>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     <string name="queso_1">1. Adb stands for ?</string>

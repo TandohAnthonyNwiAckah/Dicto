@@ -1,4 +1,7 @@
-#Fri Jun 01 12:56:25 BST 2018
-base.0=E\:\\Mobile_Studio\\Github\\Dicto\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Tue Apr 06 19:51:40 GMT 2021
+base.0=/Users/mac/pp/Dicto/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
+base.1=/Users/mac/pp/Dicto/app/build/intermediates/dex/debug/mergeProjectDexDebug/classes.dex

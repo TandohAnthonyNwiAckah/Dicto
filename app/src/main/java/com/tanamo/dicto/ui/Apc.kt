@@ -4,7 +4,7 @@ import android.app.Dialog
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.Window
 import android.widget.ImageView
 import android.widget.TextView
@@ -48,9 +48,9 @@ open class Apc : AppCompatActivity() {
         imag3 = dia.findViewById(R.id.nxt)
 
 
-        imag!!.setOnClickListener({
+        imag!!.setOnClickListener {
             finish()
-        })
+        }
 
         imag2!!.setOnClickListener {
             val intent = Intent(ctx, Ques::class.java)

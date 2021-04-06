@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/ic_backg">
 
-    <TextView
+    <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/timmer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,20 +19,20 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
-        android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
-        android:paddingTop="@dimen/activity_vertical_margin">
+        android:paddingBottom="@dimen/activity_vertical_margin">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
+            <androidx.appcompat.widget.AppCompatTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -46,7 +46,7 @@
 
             <RelativeLayout style="@style/ls">
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/q1"
                     style="@style/qs"
                     android:text="@string/ques_1" />
@@ -74,7 +74,7 @@
 
             <RelativeLayout style="@style/ls">
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/q2"
                     style="@style/qs"
                     android:text="@string/ques_2" />
@@ -99,7 +99,7 @@
 
             <RelativeLayout style="@style/ls">
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/q3"
                     style="@style/qs"
                     android:text="@string/ques_3" />
@@ -121,7 +121,7 @@
 
             <RelativeLayout style="@style/ls">
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/q4"
                     style="@style/qs"
                     android:text="@string/ques_4" />
@@ -178,7 +178,7 @@
 
             <RelativeLayout style="@style/ls">
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     android:id="@+id/q6"
                     style="@style/qs"
                     android:text="@string/ques_6" />
@@ -213,7 +213,7 @@
 
     <fragment
         android:id="@+id/cedis"
-        class="com.tanamo.dicto.mod.Cedis"
+        class="com.tanamo.dicto.util.Cedis"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"

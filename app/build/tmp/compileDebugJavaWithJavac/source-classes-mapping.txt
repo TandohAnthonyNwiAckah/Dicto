@@ -1,0 +1,2 @@
+com/tanamo/dicto/BuildConfig.java
+ com.tanamo.dicto.BuildConfig

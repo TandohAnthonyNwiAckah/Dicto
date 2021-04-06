@@ -2,21 +2,6 @@
 
 package com.tanamo.dicto.ui
 
-/*
- * Copyright (C) 2016 Tanamo Inc.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *       http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 
 import android.annotation.SuppressLint
 import android.app.Dialog
@@ -25,26 +10,26 @@ import android.content.Intent
 import android.net.Uri
 import android.os.AsyncTask
 import android.os.Bundle
-import android.support.design.widget.Snackbar
-import android.support.v7.app.ActionBarDrawerToggle
-import android.support.v7.app.AlertDialog
-import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.view.*
 import android.widget.ArrayAdapter
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
+import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
+import com.google.android.material.snackbar.Snackbar
 import com.tanamo.dicto.R
 import com.tanamo.dicto.db.Dict
-import com.tanamo.dicto.mod.Kons
-import com.tanamo.dicto.mod.Kons.App_name
-import com.tanamo.dicto.mod.Kons.DWORD
-import com.tanamo.dicto.mod.Kons.RMEANING
-import com.tanamo.dicto.mod.Kons.RWORD
-import com.tanamo.dicto.mod.Kons.TAG
-import com.tanamo.dicto.mod.Kons.UWORD
-import com.tanamo.dicto.mod.Kons.suV
+import com.tanamo.dicto.util.Constant
+import com.tanamo.dicto.util.Constant.App_name
+import com.tanamo.dicto.util.Constant.DWORD
+import com.tanamo.dicto.util.Constant.RMEANING
+import com.tanamo.dicto.util.Constant.RWORD
+import com.tanamo.dicto.util.Constant.TAG
+import com.tanamo.dicto.util.Constant.UWORD
+import com.tanamo.dicto.util.Constant.suV
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
@@ -87,7 +72,7 @@ class MainActivity : AppCompatActivity() {
 
         tio.setText(R.string.app_name)
 
-        navigation_view.setNavigationItemSelectedListener({ menuItem ->
+        navigation_view.setNavigationItemSelectedListener { menuItem ->
             drawer_layout.closeDrawers()
             val intent: Intent
 
@@ -116,7 +101,7 @@ class MainActivity : AppCompatActivity() {
 
                 }
                 menuItem.itemId == R.id.more -> try {
-                    val sendIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/search?q=tanamo%20inc&c=apps"))
+                    val sendIntent = Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/search?q=tanacom&c=apps"))
                     sendIntent.flags = Intent.FLAG_ACTIVITY_CLEAR_TOP
                     startActivity(sendIntent)
                 } catch (exx: ActivityNotFoundException) {
@@ -127,7 +112,7 @@ class MainActivity : AppCompatActivity() {
                 menuItem.itemId == R.id.feedback -> {
                     intent = Intent(Intent.ACTION_SEND)
                     intent.type = "message/rfc822"
-                    intent.putExtra(Intent.EXTRA_EMAIL, arrayOf(Kons.AUTHOR_EMAIL_ADDRESS))
+                    intent.putExtra(Intent.EXTRA_EMAIL, arrayOf(Constant.AUTHOR_EMAIL_ADDRESS))
                     intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.fb))
                     try {
                         startActivity(Intent.createChooser(intent, getString(R.string.fb)))
@@ -154,8 +139,6 @@ class MainActivity : AppCompatActivity() {
 
             false
         }
-
-        )
 
         val abt = ActionBarDrawerToggle(this@MainActivity, drawer_layout, toolBar, R.string.app_name, R.string.app_name)
         abt.isDrawerIndicatorEnabled = true

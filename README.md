@@ -13,34 +13,42 @@ Dicto is an App built for Android developers to improve their programming skills
 
 
 
-## Minimum Requirements
-
-* Android Studio 3.0
-* Kotlin compiler and runtime version -1.2.30
-* buildToolsVersion- 27.0.3
-* compileSdkVersion - 27 
-* targetsSdkVersion - 27
-* ankoVersion  - 0.10.4
-* supportLibraryVersion -27.1.1
-
-## Help
-For help,email **tanamoinc@gmail.com.**
-
- <a class="btn btn-cta-primary" href='https://play.google.com/store/search?q=tanamo%20inc&c=apps' target="_blank">More App From Us</a>
-
-## License
-    Copyright 2017 Tanamo Inc.
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+Requirements
+==============
+  - Android Studio 4.0 and above
+  - kotlin_version = 1.4.32
+  -  BuildToolsVersion : 30.0.3
+  -  CompileSdkVersion : 30
+  -  MinSdkVersion : 16
+  - TargetSdkVersion : 30
+  -  Gradle Version : 4.1.3
 
 
-### Suggestions are welcome.
+   DEPENDENCIES USED.
+  =================
+
+```
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version'
+    implementation 'com.google.android.gms:play-services-ads:20.0.0'
+    implementation 'org.jetbrains.anko:anko-sdk15:$ankoVersion'
+    implementation 'org.jetbrains.anko:anko-appcompat-v7:$ankoVersion'
+    implementation 'com.airbnb.android:lottie:3.4.1'
+    implementation 'junit:junit:4.13.2'
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+
+ext {
+        // SDK and tools
+        buildToolsVersion = '30.0.3'
+        compileSdkVersion = 30
+        minSdkVersion = 16
+        targetSdkVersion = 30
+        ankoVersion = '0.10.4'
+    }
+
+```

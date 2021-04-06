@@ -1,310 +1,247 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-79:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\854591cb599113e0659cbbfa0f388ec4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.airbnb.android:lottie:2.5.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\lottie-2.5.1.aar\f46eecbf75abc92a326d6c1aac979999\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cd122a10159e8c06fe84623ad9009c56\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\86b5aa9cbad84aa32aff503d4ba5c13a\AndroidManifest.xml:17:1-22:12
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\c597421e464270b49427546c58393b27\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1d3c5b20f16f309111d5f8103d99b882\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-ads:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.0.aar\3ddee1a3df6610a0d435bafdb1659aa7\AndroidManifest.xml:16:1-18:12
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:2:1-19:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\68ceea5d0eeb1fd5c9405aaea3313af1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\143686e21dcb720a7c08067d1ac34182\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:16:1-27:12
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\4fec28210ac64ce9012fe9e8250154fd\AndroidManifest.xml:16:1-19:12
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\bb35a211fd3bae623e8c261606a912bc\AndroidManifest.xml:16:1-19:12
-MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\6ad8403abe936e4ec569b12eb1b92f3f\AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\7448e2fb78d855b0195336f4ab167265\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\605c46b2387b7d24859faa9af4caf17b\AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\24290a129f534f3f3c1bc4cdca8e0e76\AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\629c8956deb0f6d6a6aa10e4086f5aa0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\fea0d85a86e6e6ba338914cf4952c57e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f25bc9b2e6af35cdcc896efd51677b60\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b928459742f07ee3b753a14fc0424fe7\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bb58774303d7178aef3c67c179eeac91\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\97c35871328a7fc60283af46cd4f552a\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a515c3f9a0d1e923e4b5707d4836be7d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8eb7a6a4b667e1fd6357ddb9622113a4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\1da529493f8b8dc7bdacbcc947b90e5a\AndroidManifest.xml:2:1-13:12
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\9826a0257d5ef9240633636b2b8c1973\AndroidManifest.xml:45:1-56:12
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\21d493b1be1dc13085101f81bac6b916\AndroidManifest.xml:2:1-13:12
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3055b762021461ef78da918faf6047f8\AndroidManifest.xml:22:1-33:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c73562bf8edce6c7e2ec3a44dee7a230\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\fec5db3cbb5f23d6a2d20fc556ab9435\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9ddc3acd4bcea94972411e8e7750d7f4\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\011b6b1eb198377149126d91d1a64ada\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:2:1-76:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e5d698c41829125064377e15d21b83ba/multidex-2.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4ad64947e2be804d785f0677631dcae7/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mac/.gradle/caches/transforms-2/files-2.1/72130ebd2c011aad491b6fbdb67949f4/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.airbnb.android:lottie:3.4.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/2d10dedd7e3a0c5230362d8e3c4f8d91/jetified-lottie-3.4.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f89469c3d3dd109682fca198739591e5/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9879a68dc90d1b780907f58813f7cdca/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fa7bf2fd1ea2ed659317018785c648fd/jetified-circleimageview-2.2.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a666033804ff03817fffacfe156071a/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/08dc7cbc2068a20e772491bfb2bab495/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ae787361ba0206f1708d1d8b9272ff00/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/65c92d7be700d405f3dba8f83ec67c4d/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/851e0d80afa7a91a23f3f0c8506a628f/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/326ae6449b35a222df2e92281e429362/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f95e6e444c6f7b691cdc3f5246e849b2/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3465153d35760e9c04d7ea3a53110d21/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1589cd5bbe9cbb627a3564cdd413b71a/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/027e4da801ed43058f7f41f475a6bf77/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c4e48db3fde462518219bca5bb10ac3c/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/73846e6d9a05d6c6263a8d3b63f4c212/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/49ce83a26c58541d5e0819f3d44f0360/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/5b2c47dfaa7f7b6370ac47366d7b4af9/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/09cfde4d92ef2136970545201846bc0e/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0ef63b5fb218c65b21699cad6e8b59b5/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4dc650d0929a0dc62c7b256e8c44fc4b/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3f063ae194f6a8c1cc5e7def65ab2ac0/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/df248616a3de73b1ddbd4e8966fab13e/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/621fd2a9844b263b092cd312250571f9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/92707c47c748eb2fcb5e7cda5c9ff556/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/eb3321cc0be47fa95ab614430d83509e/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6902f1542b8ee5d6447b6c8d0ec3c7be/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/106f9c6085e0bb6709c9fdde321d63bc/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/aceead37f8ac9ecc48d703932f562d92/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2c4772244eb613e2842f3b54c63ff91c/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b1ecc1e3f7ea21b702887cf3fcdbc4c2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/aa530f8bba9b290f7092458ffea94a5e/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9b956847eedaa45163a70230a8baeb2e/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:2:1-76:12
+INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:2:1-76:12
 	package
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:4:5-31
-		INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:4:5-31
+		INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-79:12
-		INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:2:1-76:12
+		INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:2:1-79:12
-		INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:2:1-76:12
+		INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:6:5-59
-INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:6:5-59
-INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:6:5-59
-MERGED from [com.android.support:design:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\854591cb599113e0659cbbfa0f388ec4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\854591cb599113e0659cbbfa0f388ec4\AndroidManifest.xml:20:5-44
-MERGED from [com.airbnb.android:lottie:2.5.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\lottie-2.5.1.aar\f46eecbf75abc92a326d6c1aac979999\AndroidManifest.xml:8:5-10:41
-MERGED from [com.airbnb.android:lottie:2.5.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\lottie-2.5.1.aar\f46eecbf75abc92a326d6c1aac979999\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cd122a10159e8c06fe84623ad9009c56\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\cd122a10159e8c06fe84623ad9009c56\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\86b5aa9cbad84aa32aff503d4ba5c13a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.1.aar\86b5aa9cbad84aa32aff503d4ba5c13a\AndroidManifest.xml:20:5-44
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\c597421e464270b49427546c58393b27\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\c597421e464270b49427546c58393b27\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1d3c5b20f16f309111d5f8103d99b882\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1d3c5b20f16f309111d5f8103d99b882\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-ads:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.0.aar\3ddee1a3df6610a0d435bafdb1659aa7\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-ads:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-11.0.0.aar\3ddee1a3df6610a0d435bafdb1659aa7\AndroidManifest.xml:17:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\68ceea5d0eeb1fd5c9405aaea3313af1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\68ceea5d0eeb1fd5c9405aaea3313af1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\143686e21dcb720a7c08067d1ac34182\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\143686e21dcb720a7c08067d1ac34182\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:22:5-43
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:22:5-43
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\4fec28210ac64ce9012fe9e8250154fd\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\4fec28210ac64ce9012fe9e8250154fd\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\bb35a211fd3bae623e8c261606a912bc\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\bb35a211fd3bae623e8c261606a912bc\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\6ad8403abe936e4ec569b12eb1b92f3f\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\6ad8403abe936e4ec569b12eb1b92f3f\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\7448e2fb78d855b0195336f4ab167265\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\7448e2fb78d855b0195336f4ab167265\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\605c46b2387b7d24859faa9af4caf17b\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\605c46b2387b7d24859faa9af4caf17b\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\24290a129f534f3f3c1bc4cdca8e0e76\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\24290a129f534f3f3c1bc4cdca8e0e76\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\629c8956deb0f6d6a6aa10e4086f5aa0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\629c8956deb0f6d6a6aa10e4086f5aa0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\fea0d85a86e6e6ba338914cf4952c57e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\fea0d85a86e6e6ba338914cf4952c57e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f25bc9b2e6af35cdcc896efd51677b60\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\f25bc9b2e6af35cdcc896efd51677b60\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b928459742f07ee3b753a14fc0424fe7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\b928459742f07ee3b753a14fc0424fe7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bb58774303d7178aef3c67c179eeac91\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\bb58774303d7178aef3c67c179eeac91\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\97c35871328a7fc60283af46cd4f552a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\97c35871328a7fc60283af46cd4f552a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a515c3f9a0d1e923e4b5707d4836be7d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\a515c3f9a0d1e923e4b5707d4836be7d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8eb7a6a4b667e1fd6357ddb9622113a4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\8eb7a6a4b667e1fd6357ddb9622113a4\AndroidManifest.xml:20:5-44
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\1da529493f8b8dc7bdacbcc947b90e5a\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\1da529493f8b8dc7bdacbcc947b90e5a\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\9826a0257d5ef9240633636b2b8c1973\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\9826a0257d5ef9240633636b2b8c1973\AndroidManifest.xml:50:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\21d493b1be1dc13085101f81bac6b916\AndroidManifest.xml:7:5-43
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\21d493b1be1dc13085101f81bac6b916\AndroidManifest.xml:7:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3055b762021461ef78da918faf6047f8\AndroidManifest.xml:27:5-43
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3055b762021461ef78da918faf6047f8\AndroidManifest.xml:27:5-43
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c73562bf8edce6c7e2ec3a44dee7a230\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c73562bf8edce6c7e2ec3a44dee7a230\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\fec5db3cbb5f23d6a2d20fc556ab9435\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\fec5db3cbb5f23d6a2d20fc556ab9435\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9ddc3acd4bcea94972411e8e7750d7f4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\9ddc3acd4bcea94972411e8e7750d7f4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\011b6b1eb198377149126d91d1a64ada\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\011b6b1eb198377149126d91d1a64ada\AndroidManifest.xml:20:5-44
-INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:6:5-59
-INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:6:5-59
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:6:5-59
+INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:6:5-59
+INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:6:5-59
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e5d698c41829125064377e15d21b83ba/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/e5d698c41829125064377e15d21b83ba/multidex-2.0.1/AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.material:material:1.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4ad64947e2be804d785f0677631dcae7/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4ad64947e2be804d785f0677631dcae7/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mac/.gradle/caches/transforms-2/files-2.1/72130ebd2c011aad491b6fbdb67949f4/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mac/.gradle/caches/transforms-2/files-2.1/72130ebd2c011aad491b6fbdb67949f4/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/2d10dedd7e3a0c5230362d8e3c4f8d91/jetified-lottie-3.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/2d10dedd7e3a0c5230362d8e3c4f8d91/jetified-lottie-3.4.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f89469c3d3dd109682fca198739591e5/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f89469c3d3dd109682fca198739591e5/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9879a68dc90d1b780907f58813f7cdca/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9879a68dc90d1b780907f58813f7cdca/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fa7bf2fd1ea2ed659317018785c648fd/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fa7bf2fd1ea2ed659317018785c648fd/jetified-circleimageview-2.2.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a666033804ff03817fffacfe156071a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0a666033804ff03817fffacfe156071a/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/08dc7cbc2068a20e772491bfb2bab495/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/08dc7cbc2068a20e772491bfb2bab495/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ae787361ba0206f1708d1d8b9272ff00/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/ae787361ba0206f1708d1d8b9272ff00/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/65c92d7be700d405f3dba8f83ec67c4d/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/65c92d7be700d405f3dba8f83ec67c4d/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/851e0d80afa7a91a23f3f0c8506a628f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/851e0d80afa7a91a23f3f0c8506a628f/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/326ae6449b35a222df2e92281e429362/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/326ae6449b35a222df2e92281e429362/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f95e6e444c6f7b691cdc3f5246e849b2/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/f95e6e444c6f7b691cdc3f5246e849b2/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3465153d35760e9c04d7ea3a53110d21/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3465153d35760e9c04d7ea3a53110d21/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1589cd5bbe9cbb627a3564cdd413b71a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/1589cd5bbe9cbb627a3564cdd413b71a/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/027e4da801ed43058f7f41f475a6bf77/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/027e4da801ed43058f7f41f475a6bf77/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c4e48db3fde462518219bca5bb10ac3c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/c4e48db3fde462518219bca5bb10ac3c/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/73846e6d9a05d6c6263a8d3b63f4c212/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/73846e6d9a05d6c6263a8d3b63f4c212/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/49ce83a26c58541d5e0819f3d44f0360/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/49ce83a26c58541d5e0819f3d44f0360/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/5b2c47dfaa7f7b6370ac47366d7b4af9/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/5b2c47dfaa7f7b6370ac47366d7b4af9/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/09cfde4d92ef2136970545201846bc0e/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/09cfde4d92ef2136970545201846bc0e/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0ef63b5fb218c65b21699cad6e8b59b5/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/0ef63b5fb218c65b21699cad6e8b59b5/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4dc650d0929a0dc62c7b256e8c44fc4b/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4dc650d0929a0dc62c7b256e8c44fc4b/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3f063ae194f6a8c1cc5e7def65ab2ac0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3f063ae194f6a8c1cc5e7def65ab2ac0/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/df248616a3de73b1ddbd4e8966fab13e/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/df248616a3de73b1ddbd4e8966fab13e/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/621fd2a9844b263b092cd312250571f9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/621fd2a9844b263b092cd312250571f9/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/92707c47c748eb2fcb5e7cda5c9ff556/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/92707c47c748eb2fcb5e7cda5c9ff556/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/eb3321cc0be47fa95ab614430d83509e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/eb3321cc0be47fa95ab614430d83509e/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6902f1542b8ee5d6447b6c8d0ec3c7be/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6902f1542b8ee5d6447b6c8d0ec3c7be/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/106f9c6085e0bb6709c9fdde321d63bc/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/106f9c6085e0bb6709c9fdde321d63bc/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/aceead37f8ac9ecc48d703932f562d92/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/aceead37f8ac9ecc48d703932f562d92/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2c4772244eb613e2842f3b54c63ff91c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/2c4772244eb613e2842f3b54c63ff91c/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b1ecc1e3f7ea21b702887cf3fcdbc4c2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/b1ecc1e3f7ea21b702887cf3fcdbc4c2/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/aa530f8bba9b290f7092458ffea94a5e/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/aa530f8bba9b290f7092458ffea94a5e/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9b956847eedaa45163a70230a8baeb2e/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/9b956847eedaa45163a70230a8baeb2e/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:6:5-59
+INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:6:5-59
 	tools:overrideLibrary
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:6:15-56
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:6:15-56
 	android:targetSdkVersion
-		INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:6:5-59
-		INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:6:5-59
+		INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:6:5-59
-		INJECTED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:6:5-59
+		INJECTED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:7:5-79
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:20:5-78
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:20:5-78
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:7:5-79
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:7:22-76
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:7:22-76
 uses-permission#android.permission.INTERNET
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:8:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:9:5-67
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:19:5-66
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\1da529493f8b8dc7bdacbcc947b90e5a\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\1da529493f8b8dc7bdacbcc947b90e5a\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\9826a0257d5ef9240633636b2b8c1973\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\9826a0257d5ef9240633636b2b8c1973\AndroidManifest.xml:52:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\21d493b1be1dc13085101f81bac6b916\AndroidManifest.xml:9:5-67
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\21d493b1be1dc13085101f81bac6b916\AndroidManifest.xml:9:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3055b762021461ef78da918faf6047f8\AndroidManifest.xml:29:5-67
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3055b762021461ef78da918faf6047f8\AndroidManifest.xml:29:5-67
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:8:5-67
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:8:22-64
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:8:22-64
 supports-screens
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:10:5-14:39
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:10:5-14:39
 	android:largeScreens
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:12:9-36
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:12:9-36
 	android:smallScreens
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:14:9-36
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:14:9-36
 	android:normalScreens
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:13:9-37
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:13:9-37
 	android:anyDensity
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:11:9-34
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:11:9-34
 application
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:16:5-77:19
-MERGED from [com.airbnb.android:lottie:2.5.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\lottie-2.5.1.aar\f46eecbf75abc92a326d6c1aac979999\AndroidManifest.xml:12:5-20
-MERGED from [com.airbnb.android:lottie:2.5.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\lottie-2.5.1.aar\f46eecbf75abc92a326d6c1aac979999\AndroidManifest.xml:12:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\c597421e464270b49427546c58393b27\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\circleimageview-2.1.0.aar\c597421e464270b49427546c58393b27\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1d3c5b20f16f309111d5f8103d99b882\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\1d3c5b20f16f309111d5f8103d99b882\AndroidManifest.xml:9:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:11:5-17:19
-MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:11:5-17:19
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:23:5-26:19
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:23:5-26:19
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\4fec28210ac64ce9012fe9e8250154fd\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-clearcut:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-clearcut-11.0.0.aar\4fec28210ac64ce9012fe9e8250154fd\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\bb35a211fd3bae623e8c261606a912bc\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-safetynet:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-safetynet-11.0.0.aar\bb35a211fd3bae623e8c261606a912bc\AndroidManifest.xml:18:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\6ad8403abe936e4ec569b12eb1b92f3f\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\6ad8403abe936e4ec569b12eb1b92f3f\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\7448e2fb78d855b0195336f4ab167265\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-gass:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-gass-11.0.0.aar\7448e2fb78d855b0195336f4ab167265\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\605c46b2387b7d24859faa9af4caf17b\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.0.0.aar\605c46b2387b7d24859faa9af4caf17b\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\24290a129f534f3f3c1bc4cdca8e0e76\AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\24290a129f534f3f3c1bc4cdca8e0e76\AndroidManifest.xml:19:5-21:19
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\1da529493f8b8dc7bdacbcc947b90e5a\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:beta:1.2.7] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\beta-1.2.7.aar\1da529493f8b8dc7bdacbcc947b90e5a\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\9826a0257d5ef9240633636b2b8c1973\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.1.aar\9826a0257d5ef9240633636b2b8c1973\AndroidManifest.xml:54:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\21d493b1be1dc13085101f81bac6b916\AndroidManifest.xml:11:5-20
-MERGED from [com.crashlytics.sdk.android:answers:1.4.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\answers-1.4.1.aar\21d493b1be1dc13085101f81bac6b916\AndroidManifest.xml:11:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3055b762021461ef78da918faf6047f8\AndroidManifest.xml:31:5-20
-MERGED from [io.fabric.sdk.android:fabric:1.4.2] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\fabric-1.4.2.aar\3055b762021461ef78da918faf6047f8\AndroidManifest.xml:31:5-20
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:16:5-74:19
+MERGED from [com.google.android.material:material:1.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4ad64947e2be804d785f0677631dcae7/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4ad64947e2be804d785f0677631dcae7/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mac/.gradle/caches/transforms-2/files-2.1/72130ebd2c011aad491b6fbdb67949f4/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mac/.gradle/caches/transforms-2/files-2.1/72130ebd2c011aad491b6fbdb67949f4/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/2d10dedd7e3a0c5230362d8e3c4f8d91/jetified-lottie-3.4.1/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/2d10dedd7e3a0c5230362d8e3c4f8d91/jetified-lottie-3.4.1/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fa7bf2fd1ea2ed659317018785c648fd/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/fa7bf2fd1ea2ed659317018785c648fd/jetified-circleimageview-2.2.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4dc650d0929a0dc62c7b256e8c44fc4b/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4dc650d0929a0dc62c7b256e8c44fc4b/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3f063ae194f6a8c1cc5e7def65ab2ac0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/3f063ae194f6a8c1cc5e7def65ab2ac0/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/4dc650d0929a0dc62c7b256e8c44fc4b/core-1.3.1/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:20:9-41
 	android:icon
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:19:9-43
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:18:9-35
 	android:theme
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:21:9-40
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:21:9-40
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:17:9-47
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:17:9-48
 activity#com.tanamo.dicto.ui.Flash
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:23:9-30:20
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:23:9-30:20
 	android:label
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:25:13-45
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:24:13-53
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:24:13-53
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:26:13-29:29
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:26:13-29:29
 action#android.intent.action.MAIN
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:27:17-69
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:27:17-69
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:27:25-66
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:27:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:28:17-77
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:28:27-74
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:28:27-74
 activity#com.tanamo.dicto.ui.MainActivity
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:32:9-41:20
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:32:9-41:20
 	android:label
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:34:13-45
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:34:13-45
 	android:theme
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:35:13-44
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:35:13-44
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:33:13-60
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:33:13-60
 intent-filter#category:name:android.intent.category.DEFAULT
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:37:13-39:29
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:37:13-39:29
 category#android.intent.category.DEFAULT
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:38:17-76
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:38:17-76
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:38:27-73
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:38:27-73
 activity#com.tanamo.dicto.ui.Apc
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:43:9-52:20
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:43:9-52:20
 	android:label
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:45:13-45
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:45:13-45
 	android:theme
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:46:13-44
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:46:13-44
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:44:13-51
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:44:13-51
 activity#com.tanamo.dicto.ui.Ques
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:54:9-57:47
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:54:9-57:47
 	android:label
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:56:13-45
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:56:13-45
 	android:theme
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:57:13-44
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:57:13-44
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:55:13-52
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:55:13-52
 activity#com.tanamo.dicto.ui.Ques2
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:59:9-62:47
+ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:59:9-62:47
 	android:label
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:61:13-45
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:61:13-45
 	android:theme
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:62:13-44
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:62:13-44
 	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:60:13-53
-activity#com.google.android.gms.ads.AdActivity
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:64:9-67:64
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:25:9-232
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-ads-lite-11.0.0.aar\0e605872f1c00bc54a4b7af4dbc02f85\AndroidManifest.xml:25:9-232
-	android:configChanges
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:66:13-122
-	android:theme
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:67:13-61
-	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:65:13-65
-meta-data#com.google.android.gms.version
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:69:9-71:69
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\24290a129f534f3f3c1bc4cdca8e0e76\AndroidManifest.xml:20:9-121
-MERGED from [com.google.android.gms:play-services-basement:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.0.0.aar\24290a129f534f3f3c1bc4cdca8e0e76\AndroidManifest.xml:20:9-121
-	android:value
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:71:13-66
-	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:70:13-58
-meta-data#io.fabric.ApiKey
-ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:73:9-75:72
-	android:value
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:75:13-69
-	android:name
-		ADDED from E:\Mobile_Studio\Github\Dicto\app\src\main\AndroidManifest.xml:74:13-44
-provider#com.crashlytics.android.CrashlyticsInitProvider
-ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:12:9-16:39
-	android:authorities
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:14:13-75
-	android:exported
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:15:13-37
-	android:initOrder
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:16:13-36
-	android:name
-		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.1] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.1.aar\2a6f0f020aa67f971fa36b8a7533bdb1\AndroidManifest.xml:13:13-75
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\6ad8403abe936e4ec569b12eb1b92f3f\AndroidManifest.xml:19:9-172
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\6ad8403abe936e4ec569b12eb1b92f3f\AndroidManifest.xml:19:146-170
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\6ad8403abe936e4ec569b12eb1b92f3f\AndroidManifest.xml:19:86-145
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.0] C:\Users\Tanamo\.gradle\caches\transforms-1\files-1.1\play-services-base-11.0.0.aar\6ad8403abe936e4ec569b12eb1b92f3f\AndroidManifest.xml:19:19-85
+		ADDED from /Users/mac/pp/Dicto/app/src/main/AndroidManifest.xml:60:13-53

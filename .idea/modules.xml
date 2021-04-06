@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Dicto.iml" filepath="$PROJECT_DIR$/Dicto.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Dicto.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Dicto.app.iml" />
     </modules>
   </component>
 </project>
